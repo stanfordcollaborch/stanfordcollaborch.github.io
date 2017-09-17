@@ -7,7 +7,7 @@
 	const Util = {};
 
 	Util.getRoot = () => {
-		return 'https://github.com/stanfordcollaborch/stanfordcollaborch.github.io';
+		return 'https://github.com/stanfordcollaborch/stanfordcollaborch.github.io/tree/master/';
 	};
 
 	Util.renderConcertCard = (concert) => {
