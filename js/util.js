@@ -6,10 +6,6 @@
 
 	const Util = {};
 
-	Util.getRoot = () => {
-		return 'https://github.com/stanfordcollaborch/stanfordcollaborch.github.io/tree/master/';
-	};
-
 	Util.renderConcertCard = (concert) => {
 		let past = new Date() > new Date(concert.date);
 
