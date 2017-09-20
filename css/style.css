@@ -764,7 +764,7 @@ Parallax
 
 /* --------------------- STUFF I ADDED --------------------- */
 
-#messageBar {
+/*#messageBar {
   cursor: pointer;
   display: none;
   position: fixed;
@@ -784,7 +784,7 @@ Parallax
   position: fixed;
   top: 0;
   right: 30px;
-}
+}*/
 
 #navbar-home {
   display: inline-block;
