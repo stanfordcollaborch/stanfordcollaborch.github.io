@@ -118,6 +118,21 @@ function getLatestGalleryId() {
 	return 'debut';
 }
 
+function messageBar() {
+	$("#messageBar").slideDown("normal", "easeInOutBack");
+
+	$("#messageBar").click(function(){
+		$(this).slideToggle("normal", "easeInOutBack", function(){
+			$("#showMessageBar").slideToggle("normal", "easeInOutBack");
+		});
+	});
+	$("#show_messageBar").click(function(){
+		$(this).slideToggle("normal", "easeInOutBack", function(){
+			$("#messageBar").slideToggle("normal", "easeInOutBack");
+		});
+	});
+}
+
 $(document).ready(function() {
 	localStorage.clear();
 	addConcerts();
@@ -126,6 +141,7 @@ $(document).ready(function() {
 	addExcerptPickerListener();
 	addContactFormButtonListener();
 	localStorage.setItem('concert', getLatestGalleryId());
+	messageBar();
 });
 
 
