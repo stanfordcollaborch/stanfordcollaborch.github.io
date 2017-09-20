@@ -141,7 +141,7 @@ $(document).ready(function() {
 	addExcerptPickerListener();
 	addContactFormButtonListener();
 	localStorage.setItem('concert', getLatestGalleryId());
-	messageBar();
+	// messageBar();
 });
 
 
