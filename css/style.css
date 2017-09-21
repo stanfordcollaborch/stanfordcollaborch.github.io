@@ -764,15 +764,12 @@ Parallax
 /* --------------------- STUFF I ADDED --------------------- */
 
 #notifBar {
-  /*position: fixed;*/
+  position: fixed;
   top: 0;
   width: 100%;
   height: 50px;
-  background-color: red;
-}
-
-#allContainer {
-  
+  background-color: white;
+  opacity: 90%;
 }
 
 /*#messageBar {
