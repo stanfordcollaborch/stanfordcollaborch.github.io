@@ -775,17 +775,17 @@ Parallax
   vertical-align: center;*/
   font-size: 30px;
   display: flex;
-  /*flex-direction: column;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;*/
+  align-items: center;
 }
 
 #notifBar-message {
-  align-self: center;
+  /*align-self: center;*/
 }
 
 #notifBar-dismiss {
-  float: right;
+  /*float: right;*/
 }
 
 /*#messageBar {
