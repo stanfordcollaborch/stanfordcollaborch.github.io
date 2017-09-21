@@ -771,9 +771,13 @@ Parallax
   z-index: 9999;
   background-color: white;
   opacity: .9;
-  text-align: center;
-  vertical-align: center;
+  /*text-align: center;
+  vertical-align: center;*/
   font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #notifBar-dismiss {
