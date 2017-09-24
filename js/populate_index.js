@@ -122,7 +122,7 @@ function getLatestGalleryId() {
 
 function notifBar() {
 	$('#notifBar-dismiss').on('click', (event) => {
-		$('#notifBar').remove();
+		$('#notifBar').fadeOut();
 	});
 }
 
