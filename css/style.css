@@ -791,7 +791,9 @@ Parallax
 }
 
 #notifBar-dismiss {
-  /*float: right;*/
+  display: table-cell;
+  vertical-align: center;
+  float: right;
 }
 
 /*#messageBar {
