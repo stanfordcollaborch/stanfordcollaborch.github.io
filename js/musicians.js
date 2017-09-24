@@ -79,7 +79,7 @@ var musicians = [
 		'middlename': '',
 		'instrument': 'cello',
 		'class': '2020',
-		'major': 'Philosophy / Religious Studies',
+		'major': '',
 		'bio': '',
 		'photo': '../img/musicians/CarolineAung.jpg'
 	},
@@ -171,7 +171,7 @@ var musicians = [
 		'class': '2019',
 		'major': 'Biomedical Computation',
 		'bio': '',
-		'photo': '../img/musicians/LuísaGalhardo.jpg'
+		'photo': '../img/musicians/LuisaGalhardo.jpg'
 	},
 	{
 		'firstname': 'Jeffrey',
