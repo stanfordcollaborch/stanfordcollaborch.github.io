@@ -116,10 +116,12 @@ function addContactFormButtonListener() {
 }
 
 function getLatestGalleryId() {
-	for (let i in concerts) {
-		if (concerts[i].gallery) return concerts[i].id;
-	}
-	return 'debut';
+	$.getJSON('res/concerts.json', function(data) {
+		for (let i in concerts) {
+			if (concerts[i].gallery) return concerts[i].id;
+		}
+		return 'debut';
+	});
 }
 
 function notifBar() {
