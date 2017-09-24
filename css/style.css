@@ -793,6 +793,7 @@ Parallax
 #notifBar-dismiss {
   float: right;
   margin: 10px 10px 0 0;
+  content: '\24E7';
 }
 
 /*#messageBar {
