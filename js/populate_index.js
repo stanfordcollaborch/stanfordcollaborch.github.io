@@ -135,6 +135,9 @@ $(document).ready(function() {
 	addContactFormButtonListener();
 	localStorage.setItem('concert', getLatestGalleryId());
 	notifBar();
+	$.getJSON('../json/test.json', function(data) {
+		console.log(data);
+	});
 });
 
 
