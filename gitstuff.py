@@ -1,6 +1,16 @@
 import sys
 from subprocess import call
 
+"""
+USAGE:
+
+	python gitstuff.py <acp> "commit message"
+
+* a runs 'git add .'
+* c runs 'git commit -m <commit message here>'
+	(REQUIRES A COMMIT MESSAGE)
+* p runs 'git push'
+"""
 def main(argv):
 	params = argv[1]
 	if 'a' in params:
