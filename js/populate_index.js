@@ -121,7 +121,7 @@ function getLatestGalleryId() {
 }
 
 function notifBar() {
-	$('#notifBar-dismiss').on('click', (event) => {
+	$('#notifBar-dismiss, #notifBar-auditionsLink').on('click', (event) => {
 		$('#notifBar').fadeOut();
 	});
 }
