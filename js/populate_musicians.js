@@ -1,7 +1,7 @@
 const numPerRow = 4;
 
 function populateMusicians() {
-	$.getJSON('res/musicians.json', function(data) {
+	$.getJSON('../res/musicians.json', function(data) {
 		musicians = data.musicians;
 		const insertMusiciansHere = document.querySelector('#insertMusiciansHere');
 		musicians.sort(Util.compareMusicians);
