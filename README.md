@@ -10,10 +10,12 @@ This repository is the source code for the [Stanford Collaborative Orchestra's w
 ## Add a new musician
 
 To add a new musician, please complete all of these steps:
-### 1. Add photo to `img/musicians`
-blah blah blah
+### 1. Add musician photo
+* Find a photo and crop it into a square. Save as `FirstnameLastname.jpg` (or `.png` or whatever other filetype)
+* Add photo to the `img/musicians` directory
+
 ### 2. Edit `js/musicians.js`
-lalalalalala
+* lalala
 
 ## Add a new concert
 
