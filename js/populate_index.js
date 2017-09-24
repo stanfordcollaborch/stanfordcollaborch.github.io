@@ -51,39 +51,41 @@ function addExcerptPicker() {
 		let instrument = instruments[i];
 		options.push(Util.tag('option', {'value': instrument}, instrument));
 	}
-	let excerpt_picker = Util.tag('select', {'id': 'instrument', 'name': 'instrument'}, options);
-	document.querySelector('#excerpt_picker').appendChild(excerpt_picker);
+	let excerptPicker = Util.tag('select', {'id': 'instrument', 'name': 'instrument'}, options);
+	document.querySelector('#excerptPicker').appendChild(excerptPicker);
 }
 
 function addBootstrapExcerptPicker() {
 	let options = [];
 	for (let i in instruments) {
 		let instrument = instruments[i];
+		// let instrumentName = instrument.replace(/ /g, '_');
 		options.push(Util.tag('option', {'value': instrument}, instrument));
 	}
-	let excerpt_picker = Util.tag('select', {
+	let excerptPicker = Util.tag('select', {
 		'id': 'instrument',
 		'name': 'instrument',
 		'class': 'selectpicker',
 		'data-live-search': 'true',
 		'title': 'Select Instrument'
 	}, options);
-	document.querySelector('#excerpt_picker').appendChild(excerpt_picker);
+	document.querySelector('#excerptPicker').appendChild(excerptPicker);
 }
 
 function addExcerptPickerListener() {
-	$('#excerpt_picker').bind('propertychange change', function() {
-		$('#download_link').html('');
-		let download_link = document.querySelector('#download_link');
+	$('#excerptPicker').bind('propertychange change', function() {
+		$('#downloadLink').html('');
+		let downloadLink = document.querySelector('#downloadLink');
 		let instrument = document.querySelector('#instrument');
 		let selection = instrument.options[instrument.selectedIndex].value;
 		if (selection === 'na') {
-			download_link.innerHTML = '(Download link will appear here)';
+			downloadLink.innerHTML = '(Download link will appear here)';
 		} else {
-			download_link.appendChild(Util.tag(
+			let instrumentFilename = selection.replace(/ /g, '_');
+			downloadLink.appendChild(Util.tag(
 				'a',
-				{'href': 'files/audition_excerpts/' + selection + '.pdf', 'target': '_blank'},
-				'Download ' + selection + '.pdf'
+				{'href': 'files/audition_excerpts/' + instrumentFilename + '.pdf', 'target': '_blank'},
+				'Download ' + instrumentFilename + '.pdf'
 			));
 		}
 	});
