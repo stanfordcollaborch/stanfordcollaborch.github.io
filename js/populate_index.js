@@ -7,21 +7,23 @@
 const NUM_CONCERTS = 10;
 
 function addConcerts() {
-	const concertSlider = document.querySelector('#concert-slider');
-	for (let i = 0; i < NUM_CONCERTS; i++) {
-		if (i < concerts.length) {
-			concertSlider.appendChild(Util.renderConcertCard(concerts[i]));
+	$.getJSON('res/concerts.json', function(data) {
+		let concerts = data.concerts;const concertSlider = document.querySelector('#concert-slider');
+		for (let i = 0; i < NUM_CONCERTS; i++) {
+			if (i < concerts.length) {
+				concertSlider.appendChild(Util.renderConcertCard(concerts[i]));
+			}
 		}
-	}
-	// if (concerts.length > NUM_CONCERTS) {
-	// 	concertSlider.appendChild(Util.tag('div', {'style': 'height: 350px; display: inline-block; top: 0;'},
-	// 		Util.tag('button', {
-	// 			'type': 'button',
-	// 			'class': 'btn btn-secondary',
-	// 			'style': 'margin: auto;'
-	// 		}, 'Older')
-	// 	));
-	// }
+		// if (concerts.length > NUM_CONCERTS) {
+		// 	concertSlider.appendChild(Util.tag('div', {'style': 'height: 350px; display: inline-block; top: 0;'},
+		// 		Util.tag('button', {
+		// 			'type': 'button',
+		// 			'class': 'btn btn-secondary',
+		// 			'style': 'margin: auto;'
+		// 		}, 'Older')
+		// 	));
+		// }
+	});
 }
 
 function addConcertListeners() {
