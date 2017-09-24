@@ -791,11 +791,7 @@ Parallax
 }
 
 #notifBar-dismiss {
-  position: fixed;
-  top: 0;
-  right: 0;
   font-size: 40px;
-  margin: 30px 50px 0 0;
 }
 
 /*#messageBar {
@@ -1267,6 +1263,14 @@ Parallax
 
   .galleria {
     min-height: 600px;
+  }
+
+  #notifBar-dismiss {
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-size: 40px;
+    margin: 30px 50px 0 0;
   }
 }
 
