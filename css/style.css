@@ -793,7 +793,6 @@ Parallax
 #notifBar-dismiss {
   display: table-cell;
   vertical-align: center;
-  float: right;
 }
 
 /*#messageBar {
