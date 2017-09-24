@@ -120,18 +120,9 @@ function getLatestGalleryId() {
 	return 'debut';
 }
 
-function messageBar() {
-	$("#messageBar").slideDown("normal", "easeInOutBack");
-
-	$("#messageBar").click(function(){
-		$(this).slideToggle("normal", "easeInOutBack", function(){
-			$("#showMessageBar").slideToggle("normal", "easeInOutBack");
-		});
-	});
-	$("#show_messageBar").click(function(){
-		$(this).slideToggle("normal", "easeInOutBack", function(){
-			$("#messageBar").slideToggle("normal", "easeInOutBack");
-		});
+function notifBar() {
+	$('#notifBar-dismiss').on('click', (event) => {
+		$('#notifBar').remove();
 	});
 }
 
@@ -143,7 +134,7 @@ $(document).ready(function() {
 	addExcerptPickerListener();
 	addContactFormButtonListener();
 	localStorage.setItem('concert', getLatestGalleryId());
-	// messageBar();
+	notifBar();
 });
 
 
