@@ -50,7 +50,7 @@ def finalInstructions():
 
 def main(argv):
 	if len(argv) < 5:
-		print('Usage:\n\tpython galleryGen.py <concertID> <title> <pickerTitle> <date> <description (optional)>')
+		print('Usage:\n\tpython galleryGen.py <id> <title> <pickerTitle> <date> <description (optional)>')
 	else:
 		processFiles(argv)
 		finalInstructions()
