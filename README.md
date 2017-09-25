@@ -105,9 +105,7 @@ python galleryGen.py <id> <title> <pickerTitle> <date> <description (optional)>
   * `pickerTitle` is a shortened version of the title that will show up in the gallery picker. **(required)**
   * `date` is the date and time of the concert, formatted as `MM/DD/YYYY, HH:MM AM/PM`. **(required)**
   * `description` is an optional description to display with every single photo. Include this to insert universal things like photo credits, and then edit individual photos later (if desired).
-
 <p>A proper usage of the script looks something like this:</p>
-
 ```shell
 python galleryGen.py filmscor "FilmSCOr: Miyazaki, Snacks, Beethoven, and More" FilmSCOr "6/3/2017, 8:45 PM" "Photographer: Harrison Truong"
 ```
