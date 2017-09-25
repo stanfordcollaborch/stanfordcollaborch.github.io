@@ -40,7 +40,7 @@ def processFiles(argv):
 			newFile.write(',')
 		newFile.write('\n')
 	newFile.write('\t\t]\n')
-	newFile.write('\t}')
+	newFile.write('\t},')
 	newFile.close()
 
 def finalInstructions():

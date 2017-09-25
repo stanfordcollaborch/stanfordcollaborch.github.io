@@ -65,13 +65,13 @@ _NOTE: The concert ID should be all lowercase._
 	]
 },
 ```
-* `title` is the full concert title. **(required)**
-* `date` is the date and time of the concert, formatted as `MM/DD/YYYY, HH:MM AM/PM`. **(required)**
-* `location` is the concert venue. **(required)**
-* `map` is a link to the location in Google Maps. **(required)**
+* `title` is the full concert title. <span style="color:red">**(required)**</span>
+* `date` is the date and time of the concert, formatted as `MM/DD/YYYY, HH:MM AM/PM`. <span style="color:red">**(required)**</span>
+* `location` is the concert venue. <span style="color:red">**(required)**</span>
+* `map` is a link to the location in Google Maps. <span style="color:red">**(required)**</span>
 * `image` is the path to the image file.
-* `event` is a link to the Facebook event page. **(required)**
-* `id` is the concert ID that you chose in Step 1. **(required)**
+* `event` is a link to the Facebook event page. <span style="color:red">**(required)**</span>
+* `id` is the concert ID that you chose in Step 1. <span style="color:red">**(required)**</span>
 * `description` is currently not being used.
 * `gallery` indicates whether or not a gallery exists for the concert. Leave as false until the gallery actually exists (see `res/galleries.json`).
 * `program` is an array of sub-objects representing each piece in the program. Fill in those fields according to the following rules:
@@ -90,7 +90,7 @@ _NOTE: Notice that the image name must be exactly the same as the concert ID (pl
 
 ### 1. Add all photos and thumbnails
 * Descend into `img/performance` and create a new directory, naming it with the concert ID of the gallery. If the gallery is for an event other than a concert, then give it a short, unique, and descriptive name.
-* Copy all of the desired photos into the new directory.
+* Copy all of the desired photos into the new directory, making sure that none of them exceed 2000px in width.
 * Create another directory inside the new one, and name it `thumbs`. This is where the resized thumbnails will be kept.
 * Make copies of the photos, resize them all to a width of 200px (let the height stay proportional), and place them into the new `thumbs` directory. These smaller images will be used as the gallery thumbnails, and dramatically increase the loading time.
 
@@ -100,10 +100,10 @@ _NOTE: Notice that the image name must be exactly the same as the concert ID (pl
 ```shell
 python galleryGen.py <id> <title> <pickerTitle> <date> <description (optional)>
 ```
-* `id` is the ID of the gallery. This should be identical to the name of the directory that you created in Step 1. **(required)**
-* `title` is the full title of the concert. **(required)**
-* `pickerTitle` is a shortened version of the title that will show up in the gallery picker. **(required)**
-* `date` is the date and time of the concert, formatted as `MM/DD/YYYY, HH:MM AM/PM`. **(required)**
+* `id` is the ID of the gallery. This should be identical to the name of the directory that you created in Step 1. <span style="color:red">**(required)**</span>
+* `title` is the full title of the concert. <span style="color:red">**(required)**</span>
+* `pickerTitle` is a shortened version of the title that will show up in the gallery picker. <span style="color:red">**(required)**</span>
+* `date` is the date and time of the concert, formatted as `MM/DD/YYYY, HH:MM AM/PM`. <span style="color:red">**(required)**</span>
 * `description` is an optional description to display with every single photo. Include this to insert universal things like photo credits, and then edit individual photos later (if desired).
 
 A proper usage of the script looks something like this:
@@ -112,6 +112,10 @@ python galleryGen.py filmscor "FilmSCOr: Miyazaki, Snacks, Beethoven, and More" 
 ```
 
 _NOTE: Notice that the `title`, `date`, and `description` fields were put in quotes, since they have spaces._
+
+### 3. Edit `res/galleries.json`
+* After running the above script, there will be a new file in your website home directory called `output.json`.
+* Open `output.json`, copy its contents, and paste them into `res/galleries.json` (most recent event first).
 
 
 
