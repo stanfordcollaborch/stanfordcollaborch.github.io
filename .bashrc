@@ -1,1 +1,1 @@
-alias gitstuff="python gitstuff.py"
+alias gitstuff="python gitstuff.py -acp"

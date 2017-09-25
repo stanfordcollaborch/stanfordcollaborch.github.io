@@ -7,6 +7,7 @@ This repository is the source code for the [Stanford Collaborative Orchestra's w
 1. [Add a new musician](#add-a-new-musician)
 2. [Add a new concert](#add-a-new-concert)
 3. [Add a new gallery](#add-a-new-gallery)
+4. [Other](#other)
 
 ## Add a new musician
 
@@ -117,6 +118,7 @@ _NOTE: Notice that the `title`, `date`, and `description` fields were put in quo
 * After running the above script, there will be a new file in your website home directory called `output.json`.
 * Open `output.json`, copy its contents, and paste them into `res/galleries.json` (most recent event first).
 
+## Other
 
 
 
