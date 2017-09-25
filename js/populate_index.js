@@ -140,7 +140,7 @@ $(document).ready(function() {
 	addExcerptPickerListener();
 	addContactFormButtonListener();
 	localStorage.setItem('concert', getLatestGalleryId());
-	console.log(localStorage.setItem('concert'));
+	console.log(localStorage.getItem('concert'));
 	notifBar();
 });
 
