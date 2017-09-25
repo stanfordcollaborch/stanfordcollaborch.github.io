@@ -7,10 +7,8 @@
 const NUM_CONCERTS = 10;
 
 function addConcerts() {
-	console.log('hello');
 	$.getJSON('res/concerts.json', function(data) {
 		let concerts = data.concerts;
-		console.log(concerts);
 		const concertSlider = document.querySelector('#concert-slider');
 		for (let i = 0; i < NUM_CONCERTS; i++) {
 			if (i < concerts.length) {
