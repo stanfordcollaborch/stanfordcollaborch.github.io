@@ -62,22 +62,24 @@ _NOTE: If a musician has a name with non-standard characters (í, ñ, etc.), use
 	]
 },
 ```
-* `title` is the full concert title
-* `date` is the date and time of the concert, formatted as `MM/DD/YYYY, HH:MM AM/PM`
-* `location` is the concert venue
-* `map` is a link to the location in Google Maps
+* `title` is the full concert title **(required)**
+* `date` is the date and time of the concert, formatted as `MM/DD/YYYY, HH:MM AM/PM` **(required)**
+* `location` is the concert venue **(required)**
+* `map` is a link to the location in Google Maps **(required)**
 * `image` is the path to the image file
-* `event` is a link to the Facebook event page
-* `id` is the concert ID that you chose in Step 1
+* `event` is a link to the Facebook event page **(required)**
+* `id` is the concert ID that you chose in Step 1 **(required)**
 * `description` is currently not being used
 * `gallery` indicates whether or not a gallery exists for the concert. Leave as false until the gallery actually exists (see `res/galleries.json`).
 * `program` is an array of sub-objects representing each piece in the program. Fill in those fields according to the following rules:
-	* The `title` field is for titles such as 'Symphony No. 1'. The `subtitle` field is for piece names such as 'Appalachian Spring'. Use one or both.
-	* If the title is more unique or complicated, use `othertitle` and write it out in raw HTML.
-	Examples:
-	* For Mozart's Symphony No. 41 "Jupiter", set `title` to "Symphony No. 41", and the subtitle to "Jupiter".
-	* For Copland's _Appalachian Spring_, set just `subtitle` to "Appalachian Spring".
-	* For Rossini's _Overture_ to _La gazza ladra_, set `othertitle` to "<i>Overture</i> to <i>La gazza ladra</i>"
+	* `title`, `subtitle`, and `othertitle` **(at least one required)** are slightly complicated
+		* The `title` field is for titles such as 'Symphony No. 1'. The `subtitle` field is for piece names such as 'Appalachian Spring'. Use one or both.
+		* If the title is more unique or complicated, use `othertitle` and write it out in raw HTML.
+			* For Mozart's Symphony No. 41 "Jupiter", set `title` to `Symphony No. 41`, and the subtitle to `Jupiter`.
+			* For Copland's _Appalachian Spring_, set just `subtitle` to `Appalachian Spring`.
+			* For Rossini's _Overture_ to _La gazza ladra_, set `othertitle` to `<i>Overture</i> to <i>La gazza ladra</i>`
+	* `featuring` is the name of any featured artists
+	* `composer` is the last name of the composer
 
 _NOTE: Notice that the image name must be exactly the same as the concert ID (plus the image filetype ending, of course)._
 
