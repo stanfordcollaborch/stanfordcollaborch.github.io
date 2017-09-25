@@ -6,16 +6,17 @@ This repository is the source code for the [Stanford Collaborative Orchestra's w
 
 1. [Add a new musician](#add-a-new-musician)
 2. [Add a new concert](#add-a-new-concert)
+3. [Add a new gallery](#add-a-new-gallery)
 
 ## Add a new musician
 
 To add a new musician, please complete all of these steps:
 ### 1. Add musician photo
-* Find a photo and crop it into a square. Save as `FirstnameLastname.jpg` (or `.png` or whatever other filetype)
-* Add photo to the `img/musicians` directory
+* Find a photo and crop it into a square. Save as `FirstnameLastname.jpg` (or `.png` or whatever other filetype).
+* Add photo to the `img/musicians` directory.
 
 ### 2. Edit `res/musicians.json`
-* Open `res/musicians.json`
+* Open `res/musicians.json`.
 * Copy the following musician template, paste it into the file, and fill in as many fields as possible. See existing musicians for examples.
 ```json
 {
@@ -35,10 +36,10 @@ _NOTE: If a musician has a name with non-standard characters (í, ñ, etc.), use
 
 ### 1. Add concert photo
 * Find a photo respresentative of the concert, crop it to a 3:2 width-to-height ratio, and resize it to 300x200px. Name the file using the theme of the concert if there is one. Otherwise, use a short, descriptive, and unique title (e.g. debut, spring2016) -- this will be the concert ID.
-* Add photo to the `img/concertcovers` directory
+* Add photo to the `img/concertcovers` directory.
 
 ### 2. Edit `res/concerts.json`
-* Open `res/concerts.json`
+* Open `res/concerts.json`.
 * Copy the following concert template, paste it into the file (newest event on top!), and replace as many fields as possible. See existing concerts for examples.
 ```json
 {
@@ -82,6 +83,20 @@ _NOTE: If a musician has a name with non-standard characters (í, ñ, etc.), use
 	* `composer` is the last name of the composer
 
 _NOTE: Notice that the image name must be exactly the same as the concert ID (plus the image filetype ending, of course)._
+
+## Add a new gallery
+
+### 1. Add all photos and thumbnails
+* Create a new directory within `img/performance`, naming it with the concert ID.
+* Copy all of the desired photos into the new directory.
+* Create another directory inside the new one, and name it `thumbs`. This is where the resized thumbnails will be kept.
+
+
+
+
+
+
+
 
 
 
