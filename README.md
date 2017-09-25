@@ -65,13 +65,13 @@ _NOTE: The concert ID should be all lowercase._
 	]
 },
 ```
-* `title` is the full concert title. **<span style="color:red">(required)</span>**
-* `date` is the date and time of the concert, formatted as `MM/DD/YYYY, HH:MM AM/PM`. **<span style="color:red">(required)</span>**
-* `location` is the concert venue. **<span style="color:red">(required)</span>**
-* `map` is a link to the location in Google Maps. **<span style="color:red">(required)</span>**
+* `title` **(required)** is the full concert title.
+* `date` **(required)** is the date and time of the concert, formatted as `MM/DD/YYYY, HH:MM AM/PM`.
+* `location` **(required)** is the concert venue.
+* `map` **(required)** is a link to the location in Google Maps.
 * `image` is the path to the image file.
-* `event` is a link to the Facebook event page. **<span style="color:red">(required)</span>**
-* `id` is the concert ID that you chose in Step 1. **<span style="color:red">(required)</span>**
+* `event` **(required)** is a link to the Facebook event page.
+* `id` **(required)** is the concert ID that you chose in Step 1.
 * `description` is currently not being used.
 * `gallery` indicates whether or not a gallery exists for the concert. Leave as false until the gallery actually exists (see `res/galleries.json`).
 * `program` is an array of sub-objects representing each piece in the program. Fill in those fields according to the following rules:
@@ -100,10 +100,10 @@ _NOTE: Notice that the image name must be exactly the same as the concert ID (pl
 ```shell
 python galleryGen.py <id> <title> <pickerTitle> <date> <description (optional)>
 ```
-* `id` is the ID of the gallery. This should be identical to the name of the directory that you created in Step 1. **<span style="color:red">(required)</span>**
-* `title` is the full title of the concert. **<span style="color:red">(required)</span>**
-* `pickerTitle` is a shortened version of the title that will show up in the gallery picker. **<span style="color:red">(required)</span>**
-* `date` is the date and time of the concert, formatted as `MM/DD/YYYY, HH:MM AM/PM`. **<span style="color:red">(required)</span>**
+* `id` **(required)** is the ID of the gallery. This should be identical to the name of the directory that you created in Step 1.
+* `title` **(required)** is the full title of the concert.
+* `pickerTitle` **(required)** is a shortened version of the title that will show up in the gallery picker.
+* `date` **(required)** is the date and time of the concert, formatted as `MM/DD/YYYY, HH:MM AM/PM`.
 * `description` is an optional description to display with every single photo. Include this to insert universal things like photo credits, and then edit individual photos later (if desired).
 
 A proper usage of the script looks something like this:
