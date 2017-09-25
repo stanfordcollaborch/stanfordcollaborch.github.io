@@ -1,0 +1,12 @@
+{
+	"data": [
+		{
+			"lol": 1,
+			"nope": "hello"
+		},
+		{
+			"lol": 2,
+			"nope": "goodbye"
+		}
+	]
+}
