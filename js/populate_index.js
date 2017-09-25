@@ -121,7 +121,6 @@ function getLatestGalleryId() {
 	$.getJSON('res/concerts.json', function(data) {
 		let concerts = data.concerts;
 		for (let i in concerts) {
-			console.log(concerts[i]);
 			if (concerts[i].gallery) return concerts[i].id;
 		}
 	});
@@ -141,6 +140,7 @@ $(document).ready(function() {
 	addExcerptPickerListener();
 	addContactFormButtonListener();
 	localStorage.setItem('concert', getLatestGalleryId());
+	console.log(localStorage.setItem('concert'));
 	notifBar();
 });
 
