@@ -94,23 +94,24 @@ _NOTE: Notice that the image name must be exactly the same as the concert ID (pl
 * Create another directory inside the new one, and name it `thumbs`. This is where the resized thumbnails will be kept.
 * Make copies of the photos, resize them all to a width of 200px (let the height stay proportional), and place them into the new `thumbs` directory. These smaller images will be used as the gallery thumbnails, and dramatically increase the loading time.
 
-### 2. Edit `res/galleries.json`
+### 2. Generate JSON for the gallery
 * From the command line, `cd` into the website home directory (the one containing `index.html`).
 * Run the script `galleryGen.py`, passing in parameters as follows:
 ```shell
 python galleryGen.py <id> <title> <pickerTitle> <date> <description (optional)>
 ```
-  * `id` is the ID of the gallery. This should be identical to the name of the directory that you created in Step 1. **(required)**
-  * `title` is the full title of the concert. **(required)**
-  * `pickerTitle` is a shortened version of the title that will show up in the gallery picker. **(required)**
-  * `date` is the date and time of the concert, formatted as `MM/DD/YYYY, HH:MM AM/PM`. **(required)**
-  * `description` is an optional description to display with every single photo. Include this to insert universal things like photo credits, and then edit individual photos later (if desired).
-<p>A proper usage of the script looks something like this:</p>
+* `id` is the ID of the gallery. This should be identical to the name of the directory that you created in Step 1. **(required)**
+* `title` is the full title of the concert. **(required)**
+* `pickerTitle` is a shortened version of the title that will show up in the gallery picker. **(required)**
+* `date` is the date and time of the concert, formatted as `MM/DD/YYYY, HH:MM AM/PM`. **(required)**
+* `description` is an optional description to display with every single photo. Include this to insert universal things like photo credits, and then edit individual photos later (if desired).
+
+A proper usage of the script looks something like this:
 ```shell
 python galleryGen.py filmscor "FilmSCOr: Miyazaki, Snacks, Beethoven, and More" FilmSCOr "6/3/2017, 8:45 PM" "Photographer: Harrison Truong"
 ```
 
-_NOTE: Notice that the `title`, `date`, and `description` fields were_
+_NOTE: Notice that the `title`, `date`, and `description` fields were put in quotes, since they have spaces._
 
 
 
