@@ -14,6 +14,8 @@ function renderGalleryPicker(galleries, concertId) {
 	document.querySelector('#insertGalleryPickerHere').appendChild(gallery_picker);
 
 	addGalleryPickerListener(concertId);
+	let gallery = galleries[concertId];
+	loadGallery(gallery);
 }
 
 function addGalleryPickerListener(concertId) {
@@ -43,7 +45,5 @@ $(document).ready(function() {
 	$.getJSON('../res/galleries.json', function(galleries) {
 		let concertId = localStorage.getItem('concert');
 		renderGalleryPicker(galleries, concertId);
-		let gallery = galleries[concertId];
-		loadGallery(gallery);
 	});
 });
