@@ -10,6 +10,7 @@ function addConcerts() {
 	$.getJSON('res/concerts.json', function(data) {
 		let concerts = data.concerts;
 		console.log(concerts);
+		console.log('hello');
 		const concertSlider = document.querySelector('#concert-slider');
 		for (let i = 0; i < NUM_CONCERTS; i++) {
 			if (i < concerts.length) {
