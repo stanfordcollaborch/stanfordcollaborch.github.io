@@ -118,6 +118,7 @@ function addContactFormButtonListener() {
 }
 
 function getLatestGalleryId() {
+	console.log('hello');
 	$.getJSON('res/concerts.json', function(data) {
 		let concerts = data.concerts;
 		console.log(concerts);
