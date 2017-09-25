@@ -7,14 +7,20 @@
 const NUM_CONCERTS = 10;
 
 function addConcerts() {
+	let foundGallery = false;
 	$.getJSON('res/concerts.json', function(data) {
 		let concerts = data.concerts;
 		const concertSlider = document.querySelector('#concert-slider');
 		for (let i = 0; i < NUM_CONCERTS; i++) {
 			if (i < concerts.length) {
 				concertSlider.appendChild(Util.renderConcertCard(concerts[i]));
+				if (!foundGallery && concerts[i].gallery) {
+					localStorage.setItem('concert', concerts[i].id);
+					foundGallery = true;
+				}
 			}
 		}
+		if (!foundGallery) localStorage.setItem('concert', 'debut');
 		// if (concerts.length > NUM_CONCERTS) {
 		// 	concertSlider.appendChild(Util.tag('div', {'style': 'height: 350px; display: inline-block; top: 0;'},
 		// 		Util.tag('button', {
@@ -139,8 +145,7 @@ $(document).ready(function() {
 	addBootstrapExcerptPicker();
 	addExcerptPickerListener();
 	addContactFormButtonListener();
-	localStorage.setItem('concert', getLatestGalleryId());
-	console.log(localStorage.getItem('concert'));
+	// localStorage.setItem('concert', getLatestGalleryId());
 	notifBar();
 });
 
