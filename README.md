@@ -97,7 +97,7 @@ _NOTE: Notice that the image name must be exactly the same as the concert ID (pl
 ### 2. Edit `res/galleries.json`
 * From the command line, `cd` into the website home directory (the one containing `index.html`).
 * Run the script `galleryGen.py`, passing in parameters as follows:
-```python
+```shell
 python galleryGen.py <id> <title> <pickerTitle> <date> <description (optional)>
 ```
 * `id` is the ID of the gallery. This should be identical to the name of the directory that you created in Step 1. **(required)**
@@ -107,7 +107,7 @@ python galleryGen.py <id> <title> <pickerTitle> <date> <description (optional)>
 * `description` is a description to display with every single photo. Include this from the command line to insert universal things like photo credits.
 
 A proper usage of the script looks something like this:
-```python
+```shell
 python galleryGen.py filmscor "FilmSCOr: Miyazaki, Snacks, Beethoven, and More" FilmSCOr "6/3/2017, 8:45 PM" "Photographer: Harrison Truong"
 ```
 
