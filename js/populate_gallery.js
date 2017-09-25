@@ -15,7 +15,6 @@ function renderGalleryPicker(galleries, concertId) {
 
 	addGalleryPickerListener(concertId);
 	let gallery = galleries[concertId];
-	console.log(gallery);
 	loadGallery(gallery);
 }
 
@@ -44,7 +43,6 @@ function loadGallery(gallery) {
 
 $(document).ready(function() {
 	$.getJSON('../res/galleries.json', function(galleries) {
-		console.log(galleries);
 		let concertId = localStorage.getItem('concert');
 		renderGalleryPicker(galleries, concertId);
 	});

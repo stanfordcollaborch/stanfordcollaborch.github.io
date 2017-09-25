@@ -120,6 +120,7 @@ function addContactFormButtonListener() {
 function getLatestGalleryId() {
 	$.getJSON('res/concerts.json', function(data) {
 		let concerts = data.concerts;
+		console.log(concerts);
 		for (let i in concerts) {
 			if (concerts[i].gallery) return concerts[i].id;
 		}
