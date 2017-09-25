@@ -1,4 +1,4 @@
-function renderGalleryPicker() {
+function renderGalleryPicker(galleries, concertId) {
 	let options = [];
 	for (let id in galleries) {
 		let gallery = galleries[id];
@@ -12,6 +12,8 @@ function renderGalleryPicker() {
 		'title': 'Select Gallery'
 	}, options);
 	document.querySelector('#insertGalleryPickerHere').appendChild(gallery_picker);
+
+	addGalleryPickerListener(concertId);
 }
 
 function addGalleryPickerListener(concertId) {
@@ -38,9 +40,10 @@ function loadGallery(gallery) {
 }
 
 $(document).ready(function() {
-	let concertId = localStorage.getItem('concert');
-	renderGalleryPicker();
-	addGalleryPickerListener(concertId);
-	let gallery = galleries[concertId];
-	loadGallery(gallery);
+	$.getJSON('../res/galleries.json', function(galleries) {
+		let concertId = localStorage.getItem('concert');
+		renderGalleryPicker(galleries, concertId);
+		let gallery = galleries[concertId];
+		loadGallery(gallery);
+	});
 });
