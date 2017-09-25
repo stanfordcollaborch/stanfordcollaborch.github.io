@@ -118,15 +118,14 @@ function addContactFormButtonListener() {
 }
 
 function getLatestGalleryId() {
-	console.log('hello');
 	$.getJSON('res/concerts.json', function(data) {
 		let concerts = data.concerts;
-		console.log(concerts);
 		for (let i in concerts) {
+			console.log(concerts[i]);
 			if (concerts[i].gallery) return concerts[i].id;
 		}
-		return 'debut';
 	});
+	return 'debut';
 }
 
 function notifBar() {
