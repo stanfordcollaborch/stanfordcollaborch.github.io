@@ -24,6 +24,7 @@ function addConcerts() {
 		// 		}, 'Older')
 		// 	));
 		// }
+		addConcertListeners();
 	});
 }
 
@@ -135,7 +136,6 @@ function notifBar() {
 $(document).ready(function() {
 	localStorage.clear();
 	addConcerts();
-	addConcertListeners();
 	addBootstrapExcerptPicker();
 	addExcerptPickerListener();
 	addContactFormButtonListener();
