@@ -100,13 +100,13 @@ _NOTE: Notice that the image name must be exactly the same as the concert ID (pl
 ```shell
 python galleryGen.py <id> <title> <pickerTitle> <date> <description (optional)>
 ```
-	* `id` is the ID of the gallery. This should be identical to the name of the directory that you created in Step 1. **(required)**
-	* `title` is the full title of the concert. **(required)**
-	* `pickerTitle` is a shortened version of the title that will show up in the gallery picker. **(required)**
-	* `date` is the date and time of the concert, formatted as `MM/DD/YYYY, HH:MM AM/PM`. **(required)**
-	* `description` is an optional description to display with every single photo. Include this to insert universal things like photo credits, and then edit individual photos later (if desired).
+  * `id` is the ID of the gallery. This should be identical to the name of the directory that you created in Step 1. **(required)**
+  * `title` is the full title of the concert. **(required)**
+  * `pickerTitle` is a shortened version of the title that will show up in the gallery picker. **(required)**
+  * `date` is the date and time of the concert, formatted as `MM/DD/YYYY, HH:MM AM/PM`. **(required)**
+  * `description` is an optional description to display with every single photo. Include this to insert universal things like photo credits, and then edit individual photos later (if desired).
 
-A proper usage of the script looks something like this:
+  A proper usage of the script looks something like this:
 ```shell
 python galleryGen.py filmscor "FilmSCOr: Miyazaki, Snacks, Beethoven, and More" FilmSCOr "6/3/2017, 8:45 PM" "Photographer: Harrison Truong"
 ```
