@@ -1,6 +1,26 @@
 {
 	"concerts": [
 		{
+			"title": "SCOr Plays: Bolero",
+			"date": "11/17/2017, 1:30 PM",
+			"location": "McMurtry Atrium",
+			"map": "https://www.google.com/maps/place/McMurtry+Building/@37.4326051,-122.1738431,17z/data=!3m1!4b1!4m5!3m4!1s0x808fbb2c62c20477:0xa5a81294aeb0d76c!8m2!3d37.4326051!4d-122.1716544",
+			"image": "img/concertcovers/bolero.jpg",
+			"event": "https://www.facebook.com/events/145770716056321/",
+			"id": "bolero",
+			"description": "",
+			"gallery": false,
+			"program": [
+				{
+					"title": "",
+					"subtitle": "Bolero",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Ravel"
+				}
+			]
+		},
+		{
 			"title": "FilmSCOr: Miyazaki, Snacks, Beethoven, and More!",
 			"date": "6/3/2017, 8:45 PM",
 			"location": "Toyon Hall",
