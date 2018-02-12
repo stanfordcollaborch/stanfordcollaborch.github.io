@@ -9,7 +9,7 @@
 			"event": "https://www.facebook.com/events/591248327933944/",
 			"id": "duck",
 			"description": "",
-			"gallery": false,
+			"gallery": true,
 			"program": [
 				{
 					"title": "",

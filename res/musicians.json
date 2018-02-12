@@ -240,5 +240,25 @@
 			"bio": "",
 			"photo": "../img/musicians/JuliaPandolfo.jpg"
 		},
+		{
+			"firstname": "Allan",
+			"lastname": "Zhao",
+			"middlename": "",
+			"instrument": "bassoon",
+			"class": "2020",
+			"major": "",
+			"bio": "",
+			"photo": "../img/musicians/AllanZhao.jpg"
+		},
+		{
+			"firstname": "Kira",
+			"lastname": "Jan",
+			"middlename": "",
+			"instrument": "violin",
+			"class": "2020",
+			"major": "",
+			"bio": "",
+			"photo": "../img/musicians/KiraJan.jpg"
+		}
 	]
 }
