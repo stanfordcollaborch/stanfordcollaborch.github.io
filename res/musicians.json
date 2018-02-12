@@ -209,6 +209,36 @@
 			"major": "",
 			"bio": "",
 			"photo": "../img/musicians/TaideDing.jpg"
-		}
+		},
+		{
+			"firstname": "Haeli",
+			"lastname": "Baek",
+			"middlename": "",
+			"instrument": "flute/piccolo",
+			"class": "2021",
+			"major": "",
+			"bio": "",
+			"photo": "../img/musicians/HaeliBaek.jpg"
+		},
+		{
+			"firstname": "Arianna",
+			"lastname": "Serafini",
+			"middlename": "",
+			"instrument": "violin",
+			"class": "2020",
+			"major": "",
+			"bio": "",
+			"photo": "../img/musicians/AriannaSerafini.jpg"
+		},
+		{
+			"firstname": "Julia",
+			"lastname": "Pandolfo",
+			"middlename": "",
+			"instrument": "violin",
+			"class": "2020",
+			"major": "",
+			"bio": "",
+			"photo": "../img/musicians/JuliaPandolfo.jpg"
+		},
 	]
 }

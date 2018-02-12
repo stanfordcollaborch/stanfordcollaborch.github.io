@@ -27,7 +27,7 @@ To add a new musician, please complete all of these steps:
 	"class": "",
 	"major": "",
 	"bio": "",
-	"photo": "../img/musicians/""
+	"photo": "../img/musicians/"
 },
 ```
 _NOTE: If a musician has a name with non-standard characters (í, ñ, etc.), use the correct character for their name, but use a standard version (i, n, etc.) for the photo filename._
