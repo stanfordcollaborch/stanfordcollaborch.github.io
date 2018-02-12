@@ -1,6 +1,54 @@
 {
 	"concerts": [
 		{
+			"title": "Duck Syndrome",
+			"date": "2/17/2018, 8:00 PM",
+			"location": "Toyon Hall",
+			"map": "https://www.google.com/maps/place/Toyon+Hall,+455+Arguello+Way,+Stanford,+CA+94305/@37.4260274,-122.1634602,17z/data=!3m1!4b1!4m5!3m4!1s0x808fbad760bbd92b:0xa2216fdefa25e298!8m2!3d37.4260274!4d-122.1634602?hl=en&source=opensearch",
+			"image": "img/concertcovers/duck.jpg",
+			"event": "https://www.facebook.com/events/591248327933944/",
+			"id": "duck",
+			"description": "",
+			"gallery": false,
+			"program": [
+				{
+					"title": "",
+					"subtitle": "Peter and the Wolf",
+					"othertitle": "",
+					"featuring": "Julian Bava, narrator",
+					"composer": "Prokofiev"
+				},
+				{
+					"title": "",
+					"subtitle": "",
+					"othertitle": "Fugue from <i>Prelude and Fugue for Brass Trio</i>",
+					"featuring": "",
+					"composer": "Salamon"
+				},
+				{
+					"title": "",
+					"subtitle": "",
+					"othertitle": "<i>Par un clair matin</i> from <i>Trois Aquarelles</i>",
+					"featuring": "",
+					"composer": "Gaubert"
+				},
+				{
+					"title": "",
+					"subtitle": "Recuerdos de Boriquen",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Miranda"
+				},
+				{
+					"title": "",
+					"subtitle": "",
+					"othertitle": "Overture to <i>William Tell</i>",
+					"featuring": "",
+					"composer": "Rossini"
+				}
+			]
+		},
+		{
 			"title": "SCOr Plays: Bolero",
 			"date": "11/17/2017, 1:30 PM",
 			"location": "McMurtry Atrium",
