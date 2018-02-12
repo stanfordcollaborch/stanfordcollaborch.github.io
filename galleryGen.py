@@ -20,7 +20,7 @@ def processFiles(argv):
 
 	path = 'img/performance/' + concertID
 
-	filenames = [f for f in listdir(path) if isfile(join(path, f))]
+	filenames = sorted([f for f in listdir(path) if isfile(join(path, f))])
 	if '.DS_Store' in filenames:
 		filenames.remove('.DS_Store')
 
