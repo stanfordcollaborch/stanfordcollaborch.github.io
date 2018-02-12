@@ -259,6 +259,16 @@
 			"major": "",
 			"bio": "",
 			"photo": "../img/musicians/KiraJan.jpg"
+		},
+		{
+			"firstname": "Enoch",
+			"lastname": "Park",
+			"middlename": "",
+			"instrument": "oboe/English horn",
+			"class": "2019",
+			"major": "Human Biology",
+			"bio": "",
+			"photo": "../img/musicians/EnochPark.jpg"
 		}
 	]
 }
