@@ -4,7 +4,7 @@
  */
 
 // Determines how many concert cards to load
-const NUM_CONCERTS = 10;
+const NUM_CONCERTS = 15;
 
 function addConcerts() {
 	let foundGallery = false;
