@@ -279,6 +279,16 @@
 			"major": "",
 			"bio": "",
 			"photo": "../img/musicians/ErikRoise.png"
+		},
+		{
+			"firstname": "Olivia",
+			"lastname": "Li",
+			"middlename": "",
+			"instrument": "trombone",
+			"class": "2020",
+			"major": "",
+			"bio": "",
+			"photo": "../img/musicians/OliviaLi.png"
 		}
 	]
 }
