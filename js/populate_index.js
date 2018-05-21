@@ -11,6 +11,7 @@ function addConcerts() {
 	$.getJSON('res/concerts.json', function(data) {
 		let concerts = data.concerts;
 		const concertSlider = document.querySelector('#concert-slider');
+		// If you want to load all concerts, loop to `concerts.length` instead of `NUM_CONCERTS`.
 		for (let i = 0; i < NUM_CONCERTS; i++) {
 			if (i < concerts.length) {
 				concertSlider.appendChild(Util.renderConcertCard(concerts[i]));
@@ -34,6 +35,10 @@ function addConcerts() {
 	});
 }
 
+/*
+ * NOTE: Be SUPER careful if you want to edit this function, and make sure you know how
+ * to put it back to its current state if it gets messed up!
+ */
 function addConcertListeners() {
 	$('.concert-flipContainer').on('click', function(e) {
 		// e.preventDefault();

@@ -1,5 +1,5 @@
 /**
- * Provides general purpose Utility functions
+ * Provides super useful general-purpose Utility functions
  */
 
 (function () {
@@ -192,6 +192,10 @@
 		return Math.floor(Math.random() * (max - min + 1)) + min; //The maximum is inclusive and the minimum is inclusive 
 	}
 
+	/*
+	 * Comparison function for determining alphabetical order of musicians' names.
+	 * Used in populate_musicians.js.
+	 */
 	Util.compareMusicians = (a, b) => {
 		if (a.lastname < b.lastname) return -1;
 		else if (b.lastname < a.lastname) return 1;

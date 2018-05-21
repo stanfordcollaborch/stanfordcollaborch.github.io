@@ -1,5 +1,5 @@
 /*
- * Populates the audition information page
+ * Populates the audition information page (currently not in use)
  */
 
 function basicInfo() {

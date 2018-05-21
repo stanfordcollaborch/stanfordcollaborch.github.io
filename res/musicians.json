@@ -245,7 +245,7 @@
 			"lastname": "Zhao",
 			"middlename": "",
 			"instrument": "bassoon",
-			"class": "2020",
+			"class": "2021",
 			"major": "",
 			"bio": "",
 			"photo": "../img/musicians/AllanZhao.jpg"
@@ -269,6 +269,16 @@
 			"major": "Human Biology",
 			"bio": "",
 			"photo": "../img/musicians/EnochPark.jpg"
+		},
+		{
+			"firstname": "Erik",
+			"lastname": "Roise",
+			"middlename": "",
+			"instrument": "cello",
+			"class": "2021",
+			"major": "",
+			"bio": "",
+			"photo": "../img/musicians/ErikRoise.png"
 		}
 	]
 }
