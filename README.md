@@ -1,6 +1,6 @@
 # SCOr website
 
-This repository is the source code for the [Stanford Collaborative Orchestra's website](http://web.stanford.edu/group/scor/), in a truly democratic fashion! Feel free to submit pull requests if you'd like to change anything about the website, but make sure to follow the guidelines outlined below.
+This repository is the source code for the <a href="http://web.stanford.edu/group/scor/" target="_blank">Stanford Collaborative Orchestra</a>, in a truly democratic fashion! Feel free to submit pull requests if you'd like to change anything about the website, but make sure to follow the guidelines outlined below.
 
 ## Contents
 
