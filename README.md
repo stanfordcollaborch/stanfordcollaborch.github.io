@@ -1,6 +1,6 @@
 # SCOr website
 
-This repository is the source code for the [Stanford Collaborative Orchestra's website](scor.stanford.edu), in a truly democratic fashion! Feel free to submit pull requests if you'd like to change anything about the website, but make sure to follow the guidelines outlined below.
+This repository is the source code for the [Stanford Collaborative Orchestra's website](http://web.stanford.edu/group/scor/), in a truly democratic fashion! Feel free to submit pull requests if you'd like to change anything about the website, but make sure to follow the guidelines outlined below.
 
 ## Contents
 
@@ -116,7 +116,7 @@ _NOTE: Notice that the `title`, `date`, and `description` fields were put in quo
 ### 3. Edit `res/galleries.json`
 * After running the above script, there will be a new file in your website home directory called `output.json`.
 * Open `output.json`, copy its contents, and paste them into `res/galleries.json` (most recent event first).
-
+* Delete `output.json` once you're done with it!
 
 
 
