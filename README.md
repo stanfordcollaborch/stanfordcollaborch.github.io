@@ -77,9 +77,9 @@ _NOTE: The concert ID should be all lowercase._
 * `program` is an array of sub-objects representing each piece in the program. Fill in those fields according to the following rules:
 	* `title`, `subtitle`, and `othertitle` **(at least one required)** are slightly complicated:
 		* The `title` field is for titles such as 'Symphony No. 1'. The `subtitle` field is for piece names such as 'Appalachian Spring'. Use one or both.
-		* If the title is more unique or complicated, use `othertitle` and write it out in raw HTML.
-			* For Mozart's Symphony No. 41 "Jupiter", set `title` to `Symphony No. 41`, and the subtitle to `Jupiter`.
+			* For Mozart's Symphony No. 41 "Jupiter", set `title` to `Symphony No. 41`, and `subtitle` to `Jupiter`.
 			* For Copland's _Appalachian Spring_, set just `subtitle` to `Appalachian Spring`.
+		* If the title is more unique or complicated, use `othertitle` and write it out in raw HTML.
 			* For Rossini's _Overture_ to _La gazza ladra_, set `othertitle` to `<i>Overture</i> to <i>La gazza ladra</i>`.
 	* `featuring` is the name of any featured artists.
 	* `composer` is the last name of the composer.
