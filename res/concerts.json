@@ -1,10 +1,44 @@
 {
 	"concerts": [
 		{
+			"title": "American Baguette",
+			"date": "6/3/2018, 2:30 PM",
+			"location": "Toyon Hall",
+			"map": "https://goo.gl/maps/L6w6qgpVswk",
+			"image": "img/concertcovers/baguette.png",
+			"event": "https://www.facebook.com/events/548157435585965/",
+			"id": "baguette",
+			"description": "",
+			"gallery": false,
+			"program": [
+				{
+					"title": "",
+					"subtitle": "Carnival of the Animals",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Saint-Saëns"
+				},
+				{
+					"title": "",
+					"subtitle": "The Promise of Living",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Copland"
+				},
+				{
+					"title": "",
+					"subtitle": "Le boeuf sur le toit",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Milhaud"
+				}
+			]
+		},
+		{
 			"title": "Duck Syndrome",
 			"date": "2/17/2018, 8:00 PM",
 			"location": "Toyon Hall",
-			"map": "https://www.google.com/maps/place/Toyon+Hall,+455+Arguello+Way,+Stanford,+CA+94305/@37.4260274,-122.1634602,17z/data=!3m1!4b1!4m5!3m4!1s0x808fbad760bbd92b:0xa2216fdefa25e298!8m2!3d37.4260274!4d-122.1634602?hl=en&source=opensearch",
+			"map": "https://goo.gl/maps/L6w6qgpVswk",
 			"image": "img/concertcovers/duck.jpg",
 			"event": "https://www.facebook.com/events/591248327933944/",
 			"id": "duck",
@@ -72,7 +106,7 @@
 			"title": "FilmSCOr: Miyazaki, Snacks, Beethoven, and More!",
 			"date": "6/3/2017, 8:45 PM",
 			"location": "Toyon Hall",
-			"map": "https://www.google.com/maps/place/Toyon+Hall,+455+Arguello+Way,+Stanford,+CA+94305/@37.4260274,-122.1634602,17z/data=!3m1!4b1!4m5!3m4!1s0x808fbad760bbd92b:0xa2216fdefa25e298!8m2!3d37.4260274!4d-122.1634602?hl=en&source=opensearch",
+			"map": "https://goo.gl/maps/L6w6qgpVswk",
 			"image": "img/concertcovers/filmscor.jpg",
 			"event": "https://www.facebook.com/events/489463388052574/",
 			"id": "filmscor",
@@ -133,7 +167,7 @@
 			"title": "SCOr Memes for Edgy Teens",
 			"date": "2/04/2017, 8:30 PM",
 			"location": "Toyon Hall",
-			"map": "https://www.google.com/maps/place/Toyon+Hall,+455+Arguello+Way,+Stanford,+CA+94305/@37.4260274,-122.1634602,17z/data=!3m1!4b1!4m5!3m4!1s0x808fbad760bbd92b:0xa2216fdefa25e298!8m2!3d37.4260274!4d-122.1634602?hl=en&source=opensearch",
+			"map": "https://goo.gl/maps/L6w6qgpVswk",
 			"image": "img/concertcovers/memes.jpg",
 			"event": "https://www.facebook.com/events/189056958240169/",
 			"id": "memes",
@@ -208,7 +242,7 @@
 			"title": "Spring Concert",
 			"date": "5/25/2016, 5:30 PM",
 			"location": "Toyon Hall",
-			"map": "https://www.google.com/maps/place/Toyon+Hall,+455+Arguello+Way,+Stanford,+CA+94305/@37.4260274,-122.1634602,17z/data=!3m1!4b1!4m5!3m4!1s0x808fbad760bbd92b:0xa2216fdefa25e298!8m2!3d37.4260274!4d-122.1634602?hl=en&source=opensearch",
+			"map": "https://goo.gl/maps/L6w6qgpVswk",
 			"image": "img/concertcovers/spring2016.png",
 			"event": "https://www.facebook.com/events/1027523117321840/",
 			"id": "spring2016",
@@ -249,7 +283,7 @@
 			"title": "SCOry Time",
 			"date": "3/6/2016, 2:30 PM",
 			"location": "Toyon Hall",
-			"map": "https://www.google.com/maps/place/Toyon+Hall,+455+Arguello+Way,+Stanford,+CA+94305/@37.4260274,-122.1634602,17z/data=!3m1!4b1!4m5!3m4!1s0x808fbad760bbd92b:0xa2216fdefa25e298!8m2!3d37.4260274!4d-122.1634602?hl=en&source=opensearch",
+			"map": "https://goo.gl/maps/L6w6qgpVswk",
 			"image": "img/concertcovers/scorytime.jpg",
 			"event": "https://www.facebook.com/events/1720530971492613/",
 			"id": "scorytime",
@@ -283,7 +317,7 @@
 			"title": "Mozart & Mendelssohn",
 			"date": "1/13/2016, 7:30 PM",
 			"location": "Toyon Hall",
-			"map": "https://www.google.com/maps/place/Toyon+Hall,+455+Arguello+Way,+Stanford,+CA+94305/@37.4260274,-122.1634602,17z/data=!3m1!4b1!4m5!3m4!1s0x808fbad760bbd92b:0xa2216fdefa25e298!8m2!3d37.4260274!4d-122.1634602?hl=en&source=opensearch",
+			"map": "https://goo.gl/maps/L6w6qgpVswk",
 			"image": "img/concertcovers/mandm.png",
 			"event": "https://www.facebook.com/events/1686547071614550/",
 			"id": "mandm",
@@ -330,7 +364,7 @@
 			"title": "Stanford Collaborative Orchestra Debut Concert",
 			"date": "5/31/2015, 5:00 PM",
 			"location": "Toyon Hall",
-			"map": "https://www.google.com/maps/place/Toyon+Hall,+455+Arguello+Way,+Stanford,+CA+94305/@37.4260274,-122.1634602,17z/data=!3m1!4b1!4m5!3m4!1s0x808fbad760bbd92b:0xa2216fdefa25e298!8m2!3d37.4260274!4d-122.1634602?hl=en&source=opensearch",
+			"map": "https://goo.gl/maps/L6w6qgpVswk",
 			"image": "img/concertcovers/debut.jpg",
 			"event": "https://www.facebook.com/events/626483244153175/",
 			"id": "debut",
