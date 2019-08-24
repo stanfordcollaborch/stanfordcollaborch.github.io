@@ -177,13 +177,15 @@
 	 * Returns the musician's major, or a random major if they don't have one.
 	 */
 	function getMusicianMajor(musician) {
-		if (musician.major !== '') return musician.major;
-		return random_majors[Math.floor(Math.random() * random_majors.length)];
+		return musician.major;
+		// if (musician.major !== '') return musician.major;
+		// return random_majors[Math.floor(Math.random() * random_majors.length)];
 	}
 
 	function getMusicianBio(musician) {
-		if (musician.bio !== '') return musician.bio;
-		return random_bios[Math.floor(Math.random() * random_bios.length)];
+		return musician.bio;
+		// if (musician.bio !== '') return musician.bio;
+		// return random_bios[Math.floor(Math.random() * random_bios.length)];
 	}
 
 	function getRandomIntInclusive(min, max) {
