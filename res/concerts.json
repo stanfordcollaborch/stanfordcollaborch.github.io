@@ -1,6 +1,26 @@
 {
 	"concerts": [
 		{
+			"title": "SCOr Plays Carmen",
+			"date": "11/30/2018, 5:30 PM",
+			"location": "Arrillaga Family Dining Commons",
+			"map": "https://goo.gl/maps/VLwzMp9AzGGEbDmh8",
+			"image": "img/concertcovers/carmen-popup.jpg",
+			"event": "https://www.facebook.com/events/487747451715588/",
+			"id": "carmen-popup",
+			"description": "",
+			"gallery": false,
+			"program": [
+				{
+					"title": "",
+					"subtitle": "Carmen Suites",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Bizet"
+				}
+			]
+		},
+		{
 			"title": "American Baguette",
 			"date": "6/3/2018, 2:30 PM",
 			"location": "Toyon Hall",
