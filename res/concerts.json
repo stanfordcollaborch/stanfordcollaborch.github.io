@@ -1,6 +1,54 @@
 {
 	"concerts": [
 		{
+			"title": "good vibrations",
+			"date": "5/24/2019, 7:30 PM",
+			"location": "Toyon Hall",
+			"map": "https://goo.gl/maps/L6w6qgpVswk",
+			"image": "img/concertcovers/goodvibrations.jpg",
+			"event": "https://www.facebook.com/events/436198980489821/",
+			"id": "goodvibrations",
+			"description": "",
+			"gallery": false,
+			"program": [
+				{
+					"title": "Piano Concerto No. 2",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "Lena Han, Kevin Su, and Taide Ding, piano soloists",
+					"composer": "Shostakovich"
+				},
+				{
+					"title": "",
+					"subtitle": "",
+					"othertitle": "Overture to <i>Egmont</i>",
+					"featuring": "",
+					"composer": "Beethoven"
+				},
+				{
+					"title": "String Serenade",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Dvořák"
+				},
+				{
+					"title": "Sextet for Piano and Wind Quintet",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Poulenc"
+				},
+				{
+					"title": "",
+					"subtitle": "Rhapsody on a Meme",
+					"othertitle": "",
+					"featuring": "Jeffrey Chang, composer",
+					"composer": "Chang"
+				}				
+			]
+		},
+		{
 			"title": "The Day After Valentine's",
 			"date": "2/15/2019, 7:30 PM",
 			"location": "Toyon Hall",
