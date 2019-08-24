@@ -1,6 +1,47 @@
 {
 	"concerts": [
 		{
+			"title": "The Day After Valentine's",
+			"date": "2/15/2019, 7:30 PM",
+			"location": "Toyon Hall",
+			"map": "https://goo.gl/maps/L6w6qgpVswk",
+			"image": "img/concertcovers/valentines.jpg",
+			"event": "https://www.facebook.com/events/552752685239403/",
+			"id": "valentines",
+			"description": "",
+			"gallery": false,
+			"program": [
+				{
+					"title": "Symphony No. 4",
+					"subtitle": "Italian",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Mendelssohn"
+				},
+				{
+					"title": "Suite No. 2",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Stravinsky"
+				},
+				{
+					"title": "Piano Quintet in F Minor",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Brahms"
+				},
+				{
+					"title": "Six Bagatelles for Woodwind Quintet",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Ligeti"
+				}
+			]
+		},
+		{
 			"title": "SCOr Plays Carmen",
 			"date": "11/30/2018, 5:30 PM",
 			"location": "Arrillaga Family Dining Commons",
@@ -103,7 +144,7 @@
 			]
 		},
 		{
-			"title": "SCOr Plays: Bolero",
+			"title": "SCOr Plays Bolero",
 			"date": "11/17/2017, 1:30 PM",
 			"location": "McMurtry Atrium",
 			"map": "https://www.google.com/maps/place/McMurtry+Building/@37.4326051,-122.1738431,17z/data=!3m1!4b1!4m5!3m4!1s0x808fbb2c62c20477:0xa5a81294aeb0d76c!8m2!3d37.4326051!4d-122.1716544",
