@@ -21,45 +21,55 @@
 			"photo": "../img/musicians/SpencerGuo.jpg"
 		},
 		{
-			"firstname": "Katie",
-			"lastname": "Fo",
-			"middlename": "",
+			"firstname": "Youngyoon",
+			"lastname": "Seo",
+			"middlename": "Amy",
 			"instrument": "violin",
-			"class": "2020",
-			"major": "Symbolic Systems",
-			"bio": "",
-			"photo": "../img/musicians/KatieFo.jpg"
-		},
-		{
-			"firstname": "Woody",
-			"lastname": "Wang",
-			"middlename": "",
-			"instrument": "violin",
-			"class": "2020",
-			"major": "",
-			"bio": "",
-			"photo": "../img/musicians/WoodyWang.jpg"
-		},
-		{
-			"firstname": "Tessera",
-			"lastname": "Chin",
-			"middlename": "",
-			"instrument": "viola",
-			"class": "2018",
-			"major": "Computer Science",
-			"bio": "",
-			"photo": "../img/musicians/TesseraChin.jpg"
-		},
-		{
-			"firstname": "Hannah",
-			"lastname": "Thompson",
-			"middlename": "Leigh",
-			"instrument": "viola",
-			"class": "2018",
-			"major": "Civil & Environmental Engineering",
-			"bio": "",
-			"photo": "../img/musicians/HannahThompson.jpg"
-		},
+			"class": "2022",
+			"major": "Biology / East Asian Studies",
+			"bio": "Fun Fact: Absolutely love scuba diving\nDesert Island Playlist: Mamma Mia Playlist",
+			"photo": "../img/musicians/AmySeo.jpg"
+		}
+		// {
+		// 	"firstname": "Katie",
+		// 	"lastname": "Fo",
+		// 	"middlename": "",
+		// 	"instrument": "violin",
+		// 	"class": "2020",
+		// 	"major": "Symbolic Systems",
+		// 	"bio": "",
+		// 	"photo": "../img/musicians/KatieFo.jpg"
+		// },
+		// {
+		// 	"firstname": "Woody",
+		// 	"lastname": "Wang",
+		// 	"middlename": "",
+		// 	"instrument": "violin",
+		// 	"class": "2020",
+		// 	"major": "",
+		// 	"bio": "",
+		// 	"photo": "../img/musicians/WoodyWang.jpg"
+		// },
+		// {
+		// 	"firstname": "Tessera",
+		// 	"lastname": "Chin",
+		// 	"middlename": "",
+		// 	"instrument": "viola",
+		// 	"class": "2018",
+		// 	"major": "Computer Science",
+		// 	"bio": "",
+		// 	"photo": "../img/musicians/TesseraChin.jpg"
+		// },
+		// {
+		// 	"firstname": "Hannah",
+		// 	"lastname": "Thompson",
+		// 	"middlename": "Leigh",
+		// 	"instrument": "viola",
+		// 	"class": "2018",
+		// 	"major": "Civil & Environmental Engineering",
+		// 	"bio": "",
+		// 	"photo": "../img/musicians/HannahThompson.jpg"
+		// },
 		{
 			"firstname": "Caroline",
 			"lastname": "Aung",
@@ -80,86 +90,86 @@
 			"bio": "",
 			"photo": "../img/musicians/ClementineChou.jpg"
 		},
-		{
-			"firstname": "Michael",
-			"lastname": "Chung",
-			"middlename": "",
-			"instrument": "cello",
-			"class": "2018",
-			"major": "Computer Science",
-			"bio": "",
-			"photo": "../img/musicians/MichaelChung.png"
-		},
-		{
-			"firstname": "Jared",
-			"lastname": "Cavazos",
-			"middlename": "",
-			"instrument": "bass",
-			"class": "2015",
-			"major": "",
-			"bio": "",
-			"photo": "../img/musicians/JaredCavazos.jpg"
-		},
-		{
-			"firstname": "Eva",
-			"lastname": "Wang",
-			"middlename": "",
-			"instrument": "flute",
-			"class": "2019",
-			"major": "Computer Science",
-			"bio": "",
-			"photo": "../img/musicians/EvaWang.jpg"
-		},
-		{
-			"firstname": "Papa",
-			"lastname": "Odita-Honnah",
-			"middlename": "",
-			"instrument": "flute",
-			"class": "2020",
-			"major": "Political Science / Music Performance",
-			"bio": "",
-			"photo": "../img/musicians/PapaOdita-Honnah.jpg"
-		},
-		{
-			"firstname": "Robert",
-			"lastname": "Collar",
-			"middlename": "",
-			"instrument": "clarinet",
-			"class": "2018",
-			"major": "Geology",
-			"bio": "",
-			"photo": "../img/musicians/RobertCollar.jpg"
-		},
-		{
-			"firstname": "Julian",
-			"lastname": "Bava",
-			"middlename": "",
-			"instrument": "clarinet",
-			"class": "2018",
-			"major": "Political Science / (Human Rights)",
-			"bio": "",
-			"photo": "../img/musicians/JulianBava.jpg"
-		},
-		{
-			"firstname": "Chetan",
-			"lastname": "Rane",
-			"middlename": "",
-			"instrument": "oboe",
-			"class": "2019",
-			"major": "",
-			"bio": "",
-			"photo": "../img/musicians/ChetanRane.jpg"
-		},
-		{
-			"firstname": "Luísa",
-			"lastname": "Galhardo",
-			"middlename": "",
-			"instrument": "oboe",
-			"class": "2019",
-			"major": "Biomedical Computation",
-			"bio": "",
-			"photo": "../img/musicians/LuisaGalhardo.jpg"
-		},
+		// {
+		// 	"firstname": "Michael",
+		// 	"lastname": "Chung",
+		// 	"middlename": "",
+		// 	"instrument": "cello",
+		// 	"class": "2018",
+		// 	"major": "Computer Science",
+		// 	"bio": "",
+		// 	"photo": "../img/musicians/MichaelChung.png"
+		// },
+		// {
+		// 	"firstname": "Jared",
+		// 	"lastname": "Cavazos",
+		// 	"middlename": "",
+		// 	"instrument": "bass",
+		// 	"class": "2015",
+		// 	"major": "",
+		// 	"bio": "",
+		// 	"photo": "../img/musicians/JaredCavazos.jpg"
+		// },
+		// {
+		// 	"firstname": "Eva",
+		// 	"lastname": "Wang",
+		// 	"middlename": "",
+		// 	"instrument": "flute",
+		// 	"class": "2019",
+		// 	"major": "Computer Science",
+		// 	"bio": "",
+		// 	"photo": "../img/musicians/EvaWang.jpg"
+		// },
+		// {
+		// 	"firstname": "Papa",
+		// 	"lastname": "Odita-Honnah",
+		// 	"middlename": "",
+		// 	"instrument": "flute",
+		// 	"class": "2020",
+		// 	"major": "Political Science / Music Performance",
+		// 	"bio": "",
+		// 	"photo": "../img/musicians/PapaOdita-Honnah.jpg"
+		// },
+		// {
+		// 	"firstname": "Robert",
+		// 	"lastname": "Collar",
+		// 	"middlename": "",
+		// 	"instrument": "clarinet",
+		// 	"class": "2018",
+		// 	"major": "Geology",
+		// 	"bio": "",
+		// 	"photo": "../img/musicians/RobertCollar.jpg"
+		// },
+		// {
+		// 	"firstname": "Julian",
+		// 	"lastname": "Bava",
+		// 	"middlename": "",
+		// 	"instrument": "clarinet",
+		// 	"class": "2018",
+		// 	"major": "Political Science / (Human Rights)",
+		// 	"bio": "",
+		// 	"photo": "../img/musicians/JulianBava.jpg"
+		// },
+		// {
+		// 	"firstname": "Chetan",
+		// 	"lastname": "Rane",
+		// 	"middlename": "",
+		// 	"instrument": "oboe",
+		// 	"class": "2019",
+		// 	"major": "",
+		// 	"bio": "",
+		// 	"photo": "../img/musicians/ChetanRane.jpg"
+		// },
+		// {
+		// 	"firstname": "Luísa",
+		// 	"lastname": "Galhardo",
+		// 	"middlename": "",
+		// 	"instrument": "oboe",
+		// 	"class": "2019",
+		// 	"major": "Biomedical Computation",
+		// 	"bio": "",
+		// 	"photo": "../img/musicians/LuisaGalhardo.jpg"
+		// },
 		{
 			"firstname": "Jeffrey",
 			"lastname": "Chang",
@@ -170,36 +180,36 @@
 			"bio": "",
 			"photo": "../img/musicians/JeffreyChang.jpg"
 		},
-		{
-			"firstname": "Scott",
-			"lastname": "Reid",
-			"middlename": "",
-			"instrument": "horn",
-			"class": "2017",
-			"major": "Physics",
-			"bio": "",
-			"photo": "../img/musicians/ScottReid.jpg"
-		},
-		{
-			"firstname": "Anand",
-			"lastname": "Upender",
-			"middlename": "",
-			"instrument": "trumpet",
-			"class": "2019",
-			"major": "Product Design",
-			"bio": "",
-			"photo": "../img/musicians/AnandUpender.jpg"
-		},
-		{
-			"firstname": "Dylan",
-			"lastname": "Hunn",
-			"middlename": "",
-			"instrument": "percussion",
-			"class": "2018",
-			"major": "Computer Science",
-			"bio": "",
-			"photo": "../img/musicians/DylanHunn.jpg"
-		},
+		// {
+		// 	"firstname": "Scott",
+		// 	"lastname": "Reid",
+		// 	"middlename": "",
+		// 	"instrument": "horn",
+		// 	"class": "2017",
+		// 	"major": "Physics",
+		// 	"bio": "",
+		// 	"photo": "../img/musicians/ScottReid.jpg"
+		// },
+		// {
+		// 	"firstname": "Anand",
+		// 	"lastname": "Upender",
+		// 	"middlename": "",
+		// 	"instrument": "trumpet",
+		// 	"class": "2019",
+		// 	"major": "Product Design",
+		// 	"bio": "",
+		// 	"photo": "../img/musicians/AnandUpender.jpg"
+		// },
+		// {
+		// 	"firstname": "Dylan",
+		// 	"lastname": "Hunn",
+		// 	"middlename": "",
+		// 	"instrument": "percussion",
+		// 	"class": "2018",
+		// 	"major": "Computer Science",
+		// 	"bio": "",
+		// 	"photo": "../img/musicians/DylanHunn.jpg"
+		// },
 		{
 			"firstname": "Taide",
 			"lastname": "Ding",
@@ -230,46 +240,46 @@
 			"bio": "",
 			"photo": "../img/musicians/AriannaSerafini.jpg"
 		},
-		{
-			"firstname": "Julia",
-			"lastname": "Pandolfo",
-			"middlename": "",
-			"instrument": "violin",
-			"class": "2020",
-			"major": "",
-			"bio": "",
-			"photo": "../img/musicians/JuliaPandolfo.jpg"
-		},
-		{
-			"firstname": "Allan",
-			"lastname": "Zhao",
-			"middlename": "",
-			"instrument": "bassoon",
-			"class": "2021",
-			"major": "",
-			"bio": "",
-			"photo": "../img/musicians/AllanZhao.jpg"
-		},
-		{
-			"firstname": "Kira",
-			"lastname": "Jan",
-			"middlename": "",
-			"instrument": "violin",
-			"class": "2020",
-			"major": "",
-			"bio": "",
-			"photo": "../img/musicians/KiraJan.jpg"
-		},
-		{
-			"firstname": "Enoch",
-			"lastname": "Park",
-			"middlename": "",
-			"instrument": "oboe/English horn",
-			"class": "2019",
-			"major": "Human Biology",
-			"bio": "",
-			"photo": "../img/musicians/EnochPark.jpg"
-		},
+		// {
+		// 	"firstname": "Julia",
+		// 	"lastname": "Pandolfo",
+		// 	"middlename": "",
+		// 	"instrument": "violin",
+		// 	"class": "2020",
+		// 	"major": "",
+		// 	"bio": "",
+		// 	"photo": "../img/musicians/JuliaPandolfo.jpg"
+		// },
+		// {
+		// 	"firstname": "Allan",
+		// 	"lastname": "Zhao",
+		// 	"middlename": "",
+		// 	"instrument": "bassoon",
+		// 	"class": "2021",
+		// 	"major": "",
+		// 	"bio": "",
+		// 	"photo": "../img/musicians/AllanZhao.jpg"
+		// },
+		// {
+		// 	"firstname": "Kira",
+		// 	"lastname": "Jan",
+		// 	"middlename": "",
+		// 	"instrument": "violin",
+		// 	"class": "2020",
+		// 	"major": "",
+		// 	"bio": "",
+		// 	"photo": "../img/musicians/KiraJan.jpg"
+		// },
+		// {
+		// 	"firstname": "Enoch",
+		// 	"lastname": "Park",
+		// 	"middlename": "",
+		// 	"instrument": "oboe/English horn",
+		// 	"class": "2019",
+		// 	"major": "Human Biology",
+		// 	"bio": "",
+		// 	"photo": "../img/musicians/EnochPark.jpg"
+		// },
 		{
 			"firstname": "Erik",
 			"lastname": "Roise",
@@ -280,15 +290,25 @@
 			"bio": "",
 			"photo": "../img/musicians/ErikRoise.png"
 		},
+		// {
+		// 	"firstname": "Olivia",
+		// 	"lastname": "Li",
+		// 	"middlename": "",
+		// 	"instrument": "trombone",
+		// 	"class": "2020",
+		// 	"major": "",
+		// 	"bio": "",
+		// 	"photo": "../img/musicians/OliviaLi.png"
+		// },
 		{
-			"firstname": "Olivia",
-			"lastname": "Li",
+			"firstname": "",
+			"lastname": "",
 			"middlename": "",
-			"instrument": "trombone",
-			"class": "2020",
+			"instrument": "",
+			"class": "",
 			"major": "",
 			"bio": "",
-			"photo": "../img/musicians/OliviaLi.png"
+			"photo": "../img/musicians/"
 		}
 	]
 }
