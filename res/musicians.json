@@ -42,8 +42,8 @@
 		},
 		{
 			"firstname": "Cynthia",
-			"lastname": "",
-			"middlename": "Hao",
+			"lastname": "Hao",
+			"middlename": "",
 			"instrument": "clarinet",
 			"class": "2020",
 			"major": "Bioengineering",
@@ -52,8 +52,8 @@
 		},
 		{
 			"firstname": "Daniel",
-			"lastname": "",
-			"middlename": "Chen",
+			"lastname": "Chen",
+			"middlename": "",
 			"instrument": "flute",
 			"class": "2021",
 			"major": "Psychology",
