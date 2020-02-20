@@ -1,6 +1,54 @@
 {
 	"concerts": [
 		{
+			"title": "SCOr presents: Bach, Brahms, & Bendelssohn!",
+			"date": "2/23/2020, 4:00 PM",
+			"location": "Toyon Hall",
+			"map": "https://goo.gl/maps/L6w6qgpVswk",
+			"image": "img/concertcovers/boncert.jpg",
+			"event": "https://www.facebook.com/events/209540577112992/",
+			"id": "boncert",
+			"description": "",
+			"gallery": false,
+			"program": [
+				{
+					"title": "Piano Concerto in D Minor",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Bach"
+				},
+				{
+					"title": "",
+					"subtitle": "Hungarian Dances No. 2 & 5",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Brahms"
+				},
+				{
+					"title": "",
+					"subtitle": "Overture to Hebrides",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Mendelssohn"
+				},
+				{
+					"title": "Piano Trio in D Minor",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Mendelssohn"
+				},
+				{
+					"title": "",
+					"subtitle": "Pokemon & Kingdom Hearts Medley",
+					"othertitle": "",
+					"featuring": "Kevin Su, composer",
+					"composer": "Su"
+				}				
+			]
+		},
+		{
 			"title": "good vibrations",
 			"date": "5/24/2019, 7:30 PM",
 			"location": "Toyon Hall",
