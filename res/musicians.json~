@@ -1,0 +1,104 @@
+{
+	"musicians": [
+		{
+			"firstname": "Teresia",
+			"lastname": "Chen",
+			"middlename": "",
+			"instrument": "violin",
+			"class": "2020",
+			"major": "Neurobiology / French",
+			"bio": "",
+			"photo": "../img/musicians/TeresiaChen.jpg"
+		},
+		{
+			"firstname": "Spencer",
+			"lastname": "Guo",
+			"middlename": "",
+			"instrument": "violin",
+			"class": "2020",
+			"major": "Chemistry",
+			"bio": "",
+			"photo": "../img/musicians/SpencerGuo.jpg"
+		},
+		{
+			"firstname": "Youngyoon Amy",
+			"lastname": "Seo",
+			"middlename": "",
+			"instrument": "violin",
+			"class": "2022",
+			"major": "Biology / East Asian Studies",
+			"bio": "Fun Fact: Absolutely love scuba diving\n\nDesert Island Playlist: Mamma Mia Playlist",
+			"photo": "../img/musicians/AmySeo.jpg"
+		},
+		{
+			"firstname": "Caroline",
+			"lastname": "Aung",
+			"middlename": "",
+			"instrument": "cello",
+			"class": "2020",
+			"major": "",
+			"bio": "",
+			"photo": "../img/musicians/CarolineAung.jpg"
+		},
+		{
+			"firstname": "Clementine",
+			"lastname": "Chou",
+			"middlename": "",
+			"instrument": "cello",
+			"class": "2020",
+			"major": "Psychology",
+			"bio": "",
+			"photo": "../img/musicians/ClementineChou.jpg"
+		},
+		{
+			"firstname": "Jeffrey",
+			"lastname": "Chang",
+			"middlename": "",
+			"instrument": "horn",
+			"class": "2020",
+			"major": "Chemistry",
+			"bio": "",
+			"photo": "../img/musicians/JeffreyChang.jpg"
+		},
+		{
+			"firstname": "Taide",
+			"lastname": "Ding",
+			"middlename": "",
+			"instrument": "piano",
+			"class": "2018",
+			"major": "",
+			"bio": "",
+			"photo": "../img/musicians/TaideDing.jpg"
+		},
+		{
+			"firstname": "Haeli",
+			"lastname": "Baek",
+			"middlename": "",
+			"instrument": "flute/piccolo",
+			"class": "2021",
+			"major": "",
+			"bio": "",
+			"photo": "../img/musicians/HaeliBaek.jpg"
+		},
+		{
+			"firstname": "Arianna",
+			"lastname": "Serafini",
+			"middlename": "",
+			"instrument": "violin",
+			"class": "2020",
+			"major": "",
+			"bio": "",
+			"photo": "../img/musicians/AriannaSerafini.jpg"
+		},
+		{
+			"firstname": "Erik",
+			"lastname": "Roise",
+			"middlename": "",
+			"instrument": "cello",
+			"class": "2021",
+			"major": "",
+			"bio": "",
+			"photo": "../img/musicians/ErikRoise.png"
+		}
+	]
+}
