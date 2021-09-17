@@ -1,6 +1,26 @@
 {
 	"concerts": [
 		{
+			"title": "SCOr presents: SCORANTINE",
+			"date": "12/28/2020, 2:00 PM",
+			"location": "YouTube",
+			"map": "https://youtu.be/WumCK84rqhE",
+			"image": "img/concertcovers/scorantine.png",
+			"event": "https://www.facebook.com/events/179351710539530/",
+			"id": "scorantine",
+			"description": "",
+			"gallery": false,
+			"program": [
+				{
+					"title": "",
+					"subtitle": "Procession of the Nobles",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Rimsky-Korsakov"
+				}				
+			]
+		},
+		{
 			"title": "SCOr presents: Bach, Brahms, & Bendelssohn!",
 			"date": "2/23/2020, 4:00 PM",
 			"location": "Toyon Hall",
