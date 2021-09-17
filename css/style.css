@@ -319,6 +319,7 @@ hr {
   background-image: url(../img/performance/admits2016/admitweekend2016.jpg);
   background-repeat: no-repeat;
   background-position: top center;
+  background-size: cover;
   opacity: 0.8;
   top: 0;
   bottom: 0;
