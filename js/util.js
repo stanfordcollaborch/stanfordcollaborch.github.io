@@ -33,14 +33,20 @@
 			'class': 'concert-info concert-date',
 			// 'style': past ? 'color: red;' : ''
 		}, date/* + (past ? ' (past)' : '')*/));
-		concert_info.push(Util.tag('div', {'class': 'concert-location'}, [
-			Util.tag('span', {}, 'Location: '),
-			Util.tag('a', {'class': 'concert-link', 'href': concert.map, 'target': '_blank'}, concert.location)
-		]));
+		if (concert.map && concert.location) {
+			concert_info.push(Util.tag('div', {'class': 'concert-location'}, [
+				Util.tag('span', {}, 'Location: '),
+				Util.tag('a', {'class': 'concert-link', 'href': concert.map, 'target': '_blank'}, concert.location)
+			]));
+		} 
 		// concert_info.push(Util.tag('div', {'style': 'font-style: italic;'}, '(click for more details)'));
-		concert_info.push(Util.tag('div', {'class': 'concert-event'},
-			Util.tag('a', {'class': 'concert-link', 'href': concert.event, 'target': '_blank'}, 'Facebook Event')
-		));
+		if (concert.event) {
+			concert_info.push(Util.tag('div', {'class': 'concert-event'},
+				Util.tag('a', {'class': 'concert-link', 'href': concert.event, 'target': '_blank'}, 'Facebook Event')
+			));
+		}
+
+
 		// Render the gallery link if the object says that one exists
 		if (concert.gallery) {
 			concert_info.push(Util.tag('div', {},

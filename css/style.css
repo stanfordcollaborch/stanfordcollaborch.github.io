@@ -878,7 +878,7 @@ Parallax
 
 #concert-slider {
   background-color: white;
-  height: 370px;
+  /*height: 370px;*/
 }
 
 .fadeLayer {
@@ -895,7 +895,8 @@ Parallax
 .concert-card-image {
   width: 240px;
   height: 160px;
-  border: 1px solid #ddd;
+  object-fit: contain;
+  /* border: 1px solid #ddd; */
 }
 
 .concert-card-contents {

@@ -1,6 +1,32 @@
 {
 	"concerts": [
 		{
+			"title": "Pop-Up Concert",
+			"date": "11/15/2021, 5:30 PM",
+			"location": "Lakeside Dining",
+			"map": "https://goo.gl/maps/BhYE8QdgMEvdREJw8",
+			"image": "img/concertcovers/popup.jpg",
+			"id": "popup",
+			"description": "",
+			"gallery": false,
+			"program": [
+				{
+					"title": "Overture",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Bruckner"
+				},	
+				{
+					"title": "Howl's Moving Castle",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Joe Hisaishi (arr. Kevin Long Su)"
+				}			
+			]
+		},
+		{
 			"title": "SCOr presents: SCORANTINE",
 			"date": "12/28/2020, 2:00 PM",
 			"location": "YouTube",
