@@ -1,224 +1,124 @@
 {
 	"musicians": [
 		{
-			"firstname": "Teresia",
-			"lastname": "Chen",
-			"middlename": "",
-			"instrument": "violin",
-			"class": "2020",
-			"major": "Biology / French",
-			"bio": "Fun Fact: My roommate thinks that I’m like the Pillsburry doughboy; Desert Island Playlist: Bach, Brahms, Instrumental Pokémon music, Cross Game OST, MIKA, 李健, 李荣浩",
-			"photo": "../img/musicians/TeresiaChen.jpg"
-		},
-		{
-			"firstname": "Lee",
-			"lastname": "Duan",
-			"middlename": "",
-			"instrument": "bassoon",
-			"class": "2022",
-			"major": "Classics / International Relations",
-			"bio": "Fun Fact: I’m a polyglot!; Desert Island Playlist: Forgotify for the memes, Classical, EDM, pop, etc.",
-			"photo": "../img/musicians/LeeDuan.jpg"
-		},
-		{
-			"firstname": "Spencer",
-			"lastname": "Guo",
-			"middlename": "",
-			"instrument": "violin",
-			"class": "2020",
-			"major": "Chemistry",
-			"bio": "Fun Fact: I'm really good at making omelettes; Desert Island Playlist: Brahms 4 (Kleiber/VPO), Abbey Road (Beatles), DAMN (Kendrick Lamar), Argerich's debut recital, Random Access Memories (Daft Punk), Bach Violin Sonatas/Partitas (Hilary Hahn)",
-			"photo": "../img/musicians/SpencerGuo.jpg"
-		},
-		{
-			"firstname": "Youngyoon Amy",
-			"lastname": "Seo",
-			"middlename": "",
-			"instrument": "violin",
-			"class": "2022",
-			"major": "Biology / East Asian Studies",
-			"bio": "Fun Fact: Absolutely love scuba diving; Desert Island Playlist: Mamma Mia Playlist",
-			"photo": "../img/musicians/AmySeo.jpg"
-		},
-		{
-			"firstname": "Cynthia",
-			"lastname": "Hao",
-			"middlename": "",
-			"instrument": "clarinet",
-			"class": "2020",
-			"major": "Bioengineering",
-			"bio": "Fun Fact: I know the lyrics to the Eastern vs. Western Philosophers Epic Rap Battle of History by heart; Desert Island Playlist: conan gray, bulow, phildel, verite",
-			"photo": "../img/musicians/CynthiaHao.jpg"
-		},
-		{
-			"firstname": "Daniel",
-			"lastname": "Chen",
+			"firstname": "Lauren",
+			"lastname": "Schlick",
 			"middlename": "",
 			"instrument": "flute",
-			"class": "2021",
-			"major": "Psychology",
-			"bio": "Fun Fact: I used to drink and rate expensive water; Desert Island Playlist: Panic! At the Disco",
-			"photo": "../img/musicians/DanielChen.jpg"
+			"class": "\"Old\"",
+			"major": "Public Policy (M.A.)",
+			"bio": "Fun Fact: I didn’t learn how to ride a bike until I was 19.\nTop Song: Godzilla Eats Las Vegas!",
+			"photo": "../img/musicians/LaurenSchlick.jpg"
 		},
 		{
-			"firstname": "Caroline",
-			"lastname": "Aung",
+			"firstname": "Tae Kyu",
+			"lastname": "Kim",
 			"middlename": "",
 			"instrument": "cello",
-			"class": "2020",
-			"major": "Anthropology",
-			"bio": "",
-			"photo": "../img/musicians/CarolineAung.jpg"
+			"class": "2025",
+			"major": "Computer Science (B.S.)",
+			"bio": "Fun Fact: The first non-classical concert I attended was Tyler the Creator!\nTop Song: Tchaikovsky's 1812 Overture",
+			"photo": "../img/musicians/TaeKyuKim.jpg"
 		},
 		{
-			"firstname": "Clementine",
-			"lastname": "Chou",
+			"firstname": "Carrie",
+			"lastname": "Chen",
 			"middlename": "",
-			"instrument": "cello",
-			"class": "2020",
-			"major": "Psychology",
-			"bio": "Fun Fact: Master of peeling tangerines in spirals; Desert Island Playlist: math rock, early Jason Mraz, & ukulele instrumentals",
-			"photo": "../img/musicians/ClementineChou.jpg"
+			"instrument": "flute / piano",
+			"class": "2024",
+			"major": "Computer Science (B.S.)",
+			"bio": "Fun Fact: I collect decks of playing cards and have 33 decks from around the world so far!\nTop Song: Liszt Hungarian Rhapsody No.4 and Liszt Piano Sonata!",
+			"photo": "../img/musicians/CarrieChen.jpg"
 		},
 		{
-			"firstname": "Jeffrey",
-			"lastname": "Chang",
+			"firstname": "Vardaan",
+			"lastname": "Shah",
 			"middlename": "",
-			"instrument": "horn/melodica/piano",
-			"class": "2020",
-			"major": "Physics",
-			"bio": "Fun Fact: I once had a dream about how the quantum physics of light was related to the googly eyes on my alarm clock. It all made perfect sense until I woke up.; Desert Island Playlist: Bobby McFerrin's Medicine Music (?)",
-			"photo": "../img/musicians/JeffreyChang.jpg"
+			"instrument": "flute",
+			"class": "2025",
+			"major": "Bioengineering (B.S.)",
+			"bio": "Fun Fact: I once decorated a beach themed cake complete with brown sugar sand and those little cocktail umbrellas.\nTop Song: The Chairman Dances by John Adams",
+			"photo": "../img/musicians/VardaanShah.jpg"
 		},
 		{
-			"firstname": "Kenneth",
-			"lastname": "Wang",
+			"firstname": "Elena",
+			"lastname": "Critelli",
 			"middlename": "",
-			"instrument": "oboe",
-			"class": "2021",
-			"major": "Physics / Computer Science",
-			"bio": "Fun Fact: I like to collect autographs.; Desert Island Playlist: Anime songs",
-			"photo": "../img/musicians/KennethWang.jpg"
+			"instrument": "viola",
+			"class": "2025",
+			"major": "Product Design (B.S.)",
+			"bio": "Fun Fact: I had to get my finger glued back together\nTop Song: Shostakovich Piano Quintet in G Minor Op. 57",
+			"photo": "../img/musicians/ElenaCritelli.jpg"
+		},
+		{
+			"firstname": "Arturo",
+			"lastname": "Hernandez",
+			"middlename": "",
+			"instrument": "clarinet",
+			"class": "2025",
+			"major": "Bioengineering (B.S.)",
+			"bio": "Fun Fact: I get sleep paralysis often enough for me to know how to deal with the demon o.o\nTop Song: Por Qué Me Fui A Enamorar de Ti - Mon Laferte and Mahler Symphony No. 2",
+			"photo": "../img/musicians/ArturoHernandez.jpg"
+		},
+		{
+			"firstname": "Jenn",
+			"lastname": "Soh",
+			"middlename": "",
+			"instrument": "violin",
+			"class": "2023",
+			"major": "Bioengineering (B.S.) / Community Health and Prevention Research (M.S.)",
+			"bio": "Fun Fact: I'm double jointed in both elbows and thumbs!\nTop Song: Anything by Taylor Swift",
+			"photo": "../img/musicians/JennSoh.jpg"
 		},
 		{
 			"firstname": "Kevin",
 			"lastname": "Su",
 			"middlename": "",
 			"instrument": "piano",
-			"class": "2022",
-			"major": "Music / Computer Science",
-			"bio": "Fun Fact: My right index finger is shorter than than my left one because I cut off my fingertip in an ice-skating accident when I was 5!; Desert Island Playlist: Beethoven String Quartets, the works of Tristan Murail, and Acid Rap!",
+			"class": "\"Old\"",
+			"major": "Computer Science (M.S.)",
+			"bio": "Fun Fact: I was once hospitalized by an unidentified type of nut when I was young so now I live in constant fear everytime I eat trail mix.\nTop Song: Franck Violin Sonata",
 			"photo": "../img/musicians/KevinSu.jpg"
 		},
 		{
-			"firstname": "Lauren",
-			"lastname": "Schlick",
-			"middlename": "",
-			"instrument": "flute",
-			"class": "2022",
-			"major": "Psychology / Economics",
-			"bio": "Fun Fact: I once drank 19 Slurpees^TM in one day.; Desert Island Playlist: https://open.spotify.com/playlist/0osR8XPO06DWOI3pL0LVUA",
-			"photo": "../img/musicians/LaurenSchlick.jpg"
-		},
-		{
-			"firstname": "Lena",
-			"lastname": "Han",
+			"firstname": "Peter",
+			"lastname": "Li",
 			"middlename": "",
 			"instrument": "piano",
-			"class": "2022",
-			"major": "Undecided",
-			"bio": "Fun Fact: In third grade (a particularly petty time in my life), I got mad at my sister and wrote an entire book of poems making fun of her, filled with gems like “Anna is a dorky geek”; Desert Island Playlist: A mix of SZA, Lorde, Kendrick, and Prokofiev",
-			"photo": "../img/musicians/LenaHan.jpg"
+			"class": "2025",
+			"major": "Undecided (B.S.)",
+			"bio": "Fun Fact: I own 15 cats in Tae Kyu's Minecraft server. Oh also I make rap\nTop Song: Petrushka by Igor Stravinsky",
+			"photo": "../img/musicians/PeterLi.jpg"
 		},
 		{
-			"firstname": "Leon",
-			"lastname": "Bi",
+			"firstname": "Eshaan",
+			"lastname": "Rawat",
 			"middlename": "",
-			"instrument": "trombone",
-			"class": "2022",
-			"major": "Computer Science",
-			"bio": "",
-			"photo": "../img/musicians/LeonBi.jpg"
+			"instrument": "percussion",
+			"class": "2024",
+			"major": "Chemical Engineering (B.S.)",
+			"bio": "Fun Fact: I can say the alphabet backwards in 3 seconds\nTop Song: Enchanted by Taylor Swift",
+			"photo": "../img/musicians/EshaanRawat.jpg"
 		},
 		{
-			"firstname": "Matthew",
-			"lastname": "Dardet",
-			"middlename": "",
-			"instrument": "double bass",
-			"class": "2021",
-			"major": "Political Science / Government",
-			"bio": "Fun Fact: When I was a young child my dream careers were landscaper and professional squid catcher.; Desert Island Playlist: Tchaikovsky, Mendelssohn, Mozart, Schubert, Bill Evans, Gerry Mulligan, Art Blakey, Count Basie, and Charles Mingus",
-			"photo": "../img/musicians/MatthewDardet.jpg"
-		},
-		{
-			"firstname": "Sophie",
-			"lastname": "Jin",
-			"middlename": "",
-			"instrument": "violin",
-			"class": "2023",
-			"major": "Philosophy",
-			"bio": "Fun Fact: My favorite cupcake flavor is strawberry!; Desert Island Playlist: Anything BTS (especially their old school albums and LY: Her)! Along with some Rex Orange County, Doja Cat, khai dreams and lots more!",
-			"photo": "../img/musicians/SophieJin.jpg"
-		},
-		{
-			"firstname": "Taide",
-			"lastname": "Ding",
-			"middlename": "",
-			"instrument": "piano",
-			"class": "2018",
-			"major": "Computer Science / Economics",
-			"bio": "Fun Fact: I played a private recital for Ruth Bader Ginsburg; Desert Island Playlist: The Well-Tempered Clavier, Art of Fugue, Mozart Piano Concertos, The Marriage of Figaro, The Magic Flute, Turangalîla Symphony, Javanese and Balinese Gamelan music",
-			"photo": "../img/musicians/TaideDing.jpg"
-		},
-		{
-			"firstname": "Haeli",
-			"lastname": "Baek",
-			"middlename": "",
-			"instrument": "flute/piccolo",
-			"class": "2021",
-			"major": "Symbolic Systems",
-			"bio": "Fun Fact: I have a phobia of broken sprinklers!; Desert Island Playlist: My Broadway Musicals playlist on Spotify<3",
-			"photo": "../img/musicians/HaeliBaek.jpg"
-		},
-		{
-			"firstname": "Arianna",
-			"lastname": "Serafini",
-			"middlename": "",
-			"instrument": "violin",
-			"class": "2020",
-			"major": "Mathematics",
-			"bio": "Fun Fact: I have a cat named Owen; Desert Island Playlist: Lots of Beach House and Kanye West",
-			"photo": "../img/musicians/AriannaSerafini.jpg"
-		},
-		{
-			"firstname": "Steven",
-			"lastname": "Newman",
-			"middlename": "",
-			"instrument": "violin",
-			"class": "2019",
-			"major": "International Relations",
-			"bio": "",
-			"photo": "../img/musicians/StevenNewman.jpg"
-		},
-		{
-			"firstname": "Suhas",
-			"lastname": "Sastry",
+			"firstname": "Zach",
+			"lastname": "Benton",
 			"middlename": "",
 			"instrument": "viola",
-			"class": "2021",
-			"major": "Mechanical Engineering / Electrical Engineering",
-			"bio": "Fun Fact: I prefer walking over biking!; Desert Island Playlist: Lots of heavy metal and punk music! Judas Priest, Iron Maiden, Discharge, Anti Cimex, etc.",
-			"photo": "../img/musicians/SuhasSastry.jpg"
+			"class": "2025",
+			"major": "Computer Science (B.S.)",
+			"bio": "Fun Fact: I have a frog tattoo named Jason\nTop Song: St. Paul Suite!!",
+			"photo": "../img/musicians/ZachBenton.jpg"
 		},
 		{
-			"firstname": "Erik",
-			"lastname": "Roise",
+			"firstname": "Gabby",
+			"lastname": "Rincon",
 			"middlename": "",
 			"instrument": "cello",
-			"class": "2021",
-			"major": "Mechanical Engineering",
-			"bio": "",
-			"photo": "../img/musicians/ErikRoise.png"
+			"class": "2024",
+			"major": "Physics (B.S.)",
+			"bio": "Fun Fact: I can wiggle my eyeballs\nTop Song: Symphony 4 by Philip Glass",
+			"photo": "../img/musicians/GabbyRincon.jpg"
 		}
 	]
 }
