@@ -1113,7 +1113,7 @@ Parallax
 /* entire container, keeps perspective */
 .flipContainer {
   width: 240px;
-  height: 320px;
+  height: 350px;
   display: inline-flex;
   -webkit-perspective: 1000;
   -moz-perspective: 1000;
