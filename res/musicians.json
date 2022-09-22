@@ -98,7 +98,7 @@
 			"class": "2024",
 			"major": "Chemical Engineering (B.S.)",
 			"bio": "Fun Fact: I can say the alphabet backwards in 3 seconds.\\n\\nTop Song: Enchanted by Taylor Swift",
-			"photo": "../img/musicians/EshaanRawat.jpg"
+			"photo": "../img/musicians/EshaanRawat.jpeg"
 		},
 		{
 			"firstname": "Zach",
@@ -108,7 +108,7 @@
 			"class": "2025",
 			"major": "Computer Science (B.S.)",
 			"bio": "Fun Fact: I have a frog tattoo named Jason.\\n\\nTop Song: St. Paul Suite!!",
-			"photo": "../img/musicians/ZachBenton.jpg"
+			"photo": "../img/musicians/ZachBenton.jpeg"
 		},
 		{
 			"firstname": "Gabby",
@@ -118,7 +118,7 @@
 			"class": "2024",
 			"major": "Physics (B.S.)",
 			"bio": "Fun Fact: I can wiggle my eyeballs.\\n\\nTop Song: Symphony 4 by Philip Glass",
-			"photo": "../img/musicians/GabbyRincon.jpg"
+			"photo": "../img/musicians/GabbyRincon.jpeg"
 		}
 	]
 }
