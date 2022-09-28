@@ -2,6 +2,8 @@
 
 This repository is the source code for the <a href="http://web.stanford.edu/group/scor/" target="_blank">Stanford Collaborative Orchestra website</a>, in a truly democratic fashion! Feel free to submit pull requests if you'd like to change anything about the website, but make sure to follow the guidelines outlined below.
 
+After pushing changes to the github, the you must run `./deploy.sh` to update the Stanford-hosted website. This script will prompt you for your SUNet ID and password.
+
 ## Contents
 
 1. [Add a new musician](#add-a-new-musician)
