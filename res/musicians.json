@@ -7,7 +7,7 @@
 			"instrument": "flute",
 			"class": "\"Old\"",
 			"major": "Public Policy (M.A.)",
-			"bio": "Fun Fact: I didn’t learn how to ride a bike until I was 19.<br>Top Song: Godzilla Eats Las Vegas!",
+			"bio": "Fun Fact: I didn’t learn how to ride a bike until I was 19. Top Song: Godzilla Eats Las Vegas!",
 			"photo": "../img/musicians/LaurenSchlick.jpg"
 		},
 		{
@@ -17,7 +17,7 @@
 			"instrument": "cello",
 			"class": "2025",
 			"major": "Computer Science (B.S.)",
-			"bio": "Fun Fact: The first non-classical concert I attended was Tyler the Creator!<br />Top Song: Tchaikovsky's 1812 Overture",
+			"bio": "Fun Fact: The first non-classical concert I attended was Tyler the Creator! Top Song: Tchaikovsky's 1812 Overture",
 			"photo": "../img/musicians/TaeKyuKim.jpg"
 		},
 		{
@@ -27,7 +27,7 @@
 			"instrument": "flute / piano",
 			"class": "2024",
 			"major": "Computer Science (B.S.)",
-			"bio": "Fun Fact: I collect decks of playing cards and have 33 decks from around the world so far!<br />Top Song: Liszt Hungarian Rhapsody No.4 and Liszt Piano Sonata!",
+			"bio": "Fun Fact: I collect decks of playing cards and have 33 decks from around the world so far! Top Song: Liszt Hungarian Rhapsody No.4 and Liszt Piano Sonata!",
 			"photo": "../img/musicians/CarrieChen.jpg"
 		},
 		{
@@ -37,7 +37,7 @@
 			"instrument": "flute",
 			"class": "2025",
 			"major": "Bioengineering (B.S.)",
-			"bio": "Fun Fact: I once decorated a beach themed cake complete with brown sugar sand and those little cocktail umbrellas.<br />Top Song: The Chairman Dances by John Adams",
+			"bio": "Fun Fact: I once decorated a beach themed cake complete with brown sugar sand and those little cocktail umbrellas. Top Song: The Chairman Dances by John Adams",
 			"photo": "../img/musicians/VardaanShah.jpg"
 		},
 		{
@@ -47,7 +47,7 @@
 			"instrument": "viola",
 			"class": "2025",
 			"major": "Product Design (B.S.)",
-			"bio": "Fun Fact: I had to get my finger glued back together.<br />Top Song: Shostakovich Piano Quintet in G Minor Op. 57",
+			"bio": "Fun Fact: I had to get my finger glued back together. Top Song: Shostakovich Piano Quintet in G Minor Op. 57",
 			"photo": "../img/musicians/ElenaCritelli.jpg"
 		},
 		{
@@ -57,7 +57,7 @@
 			"instrument": "clarinet",
 			"class": "2025",
 			"major": "Bioengineering (B.S.)",
-			"bio": "Fun Fact: I get sleep paralysis often enough for me to know how to deal with the demon o.o<br />Top Song: Por Qué Me Fui A Enamorar de Ti - Mon Laferte and Mahler Symphony No. 2",
+			"bio": "Fun Fact: I get sleep paralysis often enough for me to know how to deal with the demon o.o Top Song: Por Qué Me Fui A Enamorar de Ti - Mon Laferte and Mahler Symphony No. 2",
 			"photo": "../img/musicians/ArturoHernandez.jpg"
 		},
 		{
@@ -77,7 +77,7 @@
 			"instrument": "piano",
 			"class": "\"Old\"",
 			"major": "Computer Science (M.S.)",
-			"bio": "Fun Fact: I was once hospitalized by an unidentified type of nut when I was young so now I live in constant fear everytime I eat trail mix.<br />Top Song: Franck Violin Sonata",
+			"bio": "Fun Fact: I was once hospitalized by an unidentified type of nut when I was young so now I live in constant fear everytime I eat trail mix. Top Song: Franck Violin Sonata",
 			"photo": "../img/musicians/KevinSu.jpg"
 		},
 		{
@@ -87,7 +87,7 @@
 			"instrument": "piano",
 			"class": "2025",
 			"major": "Undecided (B.S.)",
-			"bio": "Fun Fact: I own 15 cats in Tae Kyu's Minecraft server. Oh also I make rap.<br />Top Song: Petrushka by Igor Stravinsky",
+			"bio": "Fun Fact: I own 15 cats in Tae Kyu's Minecraft server. Oh also I make rap. Top Song: Petrushka by Igor Stravinsky",
 			"photo": "../img/musicians/PeterLi.jpg"
 		},
 		{
@@ -97,7 +97,7 @@
 			"instrument": "percussion",
 			"class": "2024",
 			"major": "Chemical Engineering (B.S.)",
-			"bio": "Fun Fact: I can say the alphabet backwards in 3 seconds.<br />Top Song: Enchanted by Taylor Swift",
+			"bio": "Fun Fact: I can say the alphabet backwards in 3 seconds. Top Song: Enchanted by Taylor Swift",
 			"photo": "../img/musicians/EshaanRawat.jpeg"
 		},
 		{
@@ -106,8 +106,8 @@
 			"middlename": "",
 			"instrument": "viola",
 			"class": "2025",
-			"major": "Computer Science (B.S.)",
-			"bio": "Fun Fact: I have a frog tattoo named Jason.<br />Top Song: Ultraviolence by Lana del Rey!",
+			"major": "Mathematics (B.S.)",
+			"bio": "Fun Fact: I have a frog tattoo named Jason. Top Song: Ultraviolence by Lana del Rey!",
 			"photo": "../img/musicians/ZachBenton.jpeg"
 		},
 		{
@@ -117,7 +117,7 @@
 			"instrument": "cello",
 			"class": "2024",
 			"major": "Physics (B.S.)",
-			"bio": "Fun Fact: I can wiggle my eyeballs.<br />Top Song: Symphony 4 by Philip Glass",
+			"bio": "Fun Fact: I can wiggle my eyeballs. Top Song: Symphony 4 by Philip Glass",
 			"photo": "../img/musicians/GabbyRincon.jpeg"
 		}
 	]
