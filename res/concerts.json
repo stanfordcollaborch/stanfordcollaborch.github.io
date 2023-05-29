@@ -1,6 +1,175 @@
 {
 	"concerts": [
 		{
+			"title": "Throwback SCOr-sday",
+			"date": "05/31/2023, 8:00 PM",
+			"location": "Toyon Hall",
+			"map": "https://goo.gl/maps/L6w6qgpVswk",
+			"image": "img/concertcovers/throwback.jpg",
+			"id": "throwback",
+			"description": "",
+			"gallery": false,
+			"program": [
+				{
+					"title": "Reptilia",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "The Strokes"
+				},	
+				{
+					"title": "Halo",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Beyoncé"
+				},	
+				{
+					"title": "Souvenir de Florence",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Tchaikovsky"
+				},	
+				{
+					"title": "Holberg Suite",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Grieg"
+				},	
+				{
+					"title": "Concerto for Two Cellos in G Minor",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Vivaldi"
+				},	
+				{
+					"title": "Poker Face",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Lady Gaga"
+				},	
+				{
+					"title": "Toxic",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Britney Spears"
+				}			
+			]
+		},
+		{
+			"title": "SCOr-nucopia",
+			"date": "03/03/2023, 7:00 PM",
+			"location": "Toyon Hall",
+			"map": "https://goo.gl/maps/L6w6qgpVswk",
+			"image": "img/concertcovers/scornucopia.png",
+			"id": "scornucopia",
+			"description": "",
+			"gallery": false,
+			"program": [
+				{
+					"title": "Tapas",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Mellits"
+				},	
+				{
+					"title": "Piano Quintet No. 1",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Faure"
+				},	
+				{
+					"title": "Love Story",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Taylor Swift"
+				},			
+				{
+					"title": "Concerto in B minor for Four Violins",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Vivaldi"
+				},	
+				{
+					"title": "Strange Humors",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "John Mackey"
+				}			
+			]
+		},
+		{
+			"title": "Taylor Swift by Candlelight",
+			"date": "01/27/2023, 8:00 PM",
+			"location": "Toyon Hall",
+			"map": "https://goo.gl/maps/L6w6qgpVswk",
+			"image": "img/concertcovers/taylorswift.png",
+			"id": "taylorswift",
+			"description": "",
+			"gallery": false,
+			"program": [
+				{
+					"title": "Wildest Dreams",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Taylor Swift"
+				},	
+				{
+					"title": "Cardigan",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Taylor Swift"
+				},	
+				{
+					"title": "Lover",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Taylor Swift"
+				},	
+				{
+					"title": "Blank Space",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Taylor Swift"
+				},	
+				{
+					"title": "Love Story",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Taylor Swift"
+				},	
+				{
+					"title": "Enchanted",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Taylor Swift"
+				},	
+				{
+					"title": "You Belong with Me",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Taylor Swift"
+				}			
+			]
+		},
+		{
 			"title": "Pop-Up Concert",
 			"date": "11/15/2021, 5:30 PM",
 			"location": "Lakeside Dining",
