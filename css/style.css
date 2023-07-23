@@ -1111,7 +1111,9 @@ Parallax
 /* Announcement notes */
 
 .announcement {
-  background-color: #ffffcc;
+  text-align: center;
+  line-height: 23px;
+	padding: 15px;
 }
 
 /* Flipping animation */
