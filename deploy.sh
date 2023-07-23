@@ -1,5 +1,5 @@
 #!/bin/sh
-echo -n "Username: "
+echo "Username: "
 read USERNAME
 HOSTNAME="myth.stanford.edu"
 SCRIPT="cd /afs/ir.stanford.edu/group/scor/WWW; git pull"
