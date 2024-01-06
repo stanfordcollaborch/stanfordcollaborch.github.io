@@ -1,6 +1,60 @@
 {
 	"concerts": [
 		{
+			"title": "Dancing through the Decades",
+			"date": "12/03/2023, 5:00 PM",
+			"location": "CoHo Cafe",
+			"map": "https://maps.app.goo.gl/cG7LaK2Q3qW6FHZu8",
+			"image": "img/concertcovers/dancingdecades.jpg",
+			"id": "dancingdecades",
+			"description": "",
+			"gallery": false,
+			"program": [
+				{
+					"title": "Hungarian Dance No. 5",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Brahms"
+				},	
+				{
+					"title": "Prelude from Cello Suite No. 3",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Bach"
+				},	
+				{
+					"title": "Waltz No. 2",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Shostakovich"
+				},	
+				{
+					"title": "I Got Rhythm",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Gershwin"
+				},	
+				{
+					"title": "Dancing Queen",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "ABBA"
+				},	
+				{
+					"title": "Libertango",
+					"subtitle": "",
+					"othertitle": "",
+					"featuring": "",
+					"composer": "Piazzolla"
+				}
+			]
+		},
+		{
 			"title": "Throwback SCOr-sday",
 			"date": "05/31/2023, 8:00 PM",
 			"location": "Toyon Hall",
